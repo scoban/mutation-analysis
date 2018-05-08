@@ -16,6 +16,7 @@ integrate in SDLC, we will try to find a way to execute test units using Apache 
 ## Tools
 
   - PIT
+    PIT Mutation Analysis tool is a modern, easy to integrate into Software Development Lifecycle.
 
   - Mujava
 
@@ -24,6 +25,5 @@ integrate in SDLC, we will try to find a way to execute test units using Apache 
   - Judy
 
 ## Experiment
-
 
 ## Conclusion
