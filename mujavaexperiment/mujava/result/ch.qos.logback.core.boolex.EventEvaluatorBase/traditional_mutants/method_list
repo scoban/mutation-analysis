@@ -1,0 +1,5 @@
+java.lang.String_getName()
+void_setName(java.lang.String)
+boolean_isStarted()
+void_start()
+void_stop()

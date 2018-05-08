@@ -1,0 +1,9 @@
+ROR_1:20:java.lang.String_convert(int): formattingInfo == null  =>   formattingInfo != null
+ROR_2:25:java.lang.String_convert(int): j < min  =>   j > min
+ROR_3:25:java.lang.String_convert(int): j < min  =>   j >= min
+ROR_4:25:java.lang.String_convert(int): j < min  =>   j <= min
+ROR_5:25:java.lang.String_convert(int): j < min  =>   j == min
+ROR_6:25:java.lang.String_convert(int): j < min  =>   j != min
+ROR_7:25:java.lang.String_convert(int): j < min  =>   true
+ROR_8:25:java.lang.String_convert(int): j < min  =>   false
+ROR_9:33:java.lang.String_convert(java.lang.Object): o == null  =>   o != null

@@ -1,0 +1,5 @@
+AbstractAppenderFactoryUsingJoran(java.util.List,java.lang.String,java.util.Map)
+java.util.List_removeSiftElement(java.util.List)
+ch.qos.logback.core.sift.SiftingJoranConfiguratorBase_getSiftingJoranConfigurator(java.lang.String)
+ch.qos.logback.core.Appender_buildAppender(ch.qos.logback.core.Context,java.lang.String)
+java.util.List_getEventList()

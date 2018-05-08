@@ -1,0 +1,4 @@
+ROR_1:20:void_start(): dataSource == null  =>   dataSource != null
+ROR_2:24:void_start(): getSQLDialectCode() == SQLDialectCode.UNKNOWN_DIALECT  =>   getSQLDialectCode() != SQLDialectCode.UNKNOWN_DIALECT
+ROR_3:34:java.sql.Connection_getConnection(): dataSource == null  =>   dataSource != null
+ROR_4:38:java.sql.Connection_getConnection(): getUser() == null  =>   getUser() != null

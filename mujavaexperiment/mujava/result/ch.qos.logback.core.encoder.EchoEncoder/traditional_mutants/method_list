@@ -1,0 +1,3 @@
+byte_encode(E)
+byte_footerBytes()
+byte_headerBytes()

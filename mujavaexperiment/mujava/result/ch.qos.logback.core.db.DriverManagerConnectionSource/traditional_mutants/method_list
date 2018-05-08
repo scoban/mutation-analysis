@@ -1,0 +1,6 @@
+void_start()
+java.sql.Connection_getConnection()
+java.lang.String_getUrl()
+void_setUrl(java.lang.String)
+java.lang.String_getDriverClass()
+void_setDriverClass(java.lang.String)

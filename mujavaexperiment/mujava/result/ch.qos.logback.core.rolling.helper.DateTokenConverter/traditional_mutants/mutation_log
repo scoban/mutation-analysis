@@ -1,0 +1,11 @@
+ROR_1:36:void_start(): this.datePattern == null  =>   this.datePattern != null
+ROR_2:40:void_start(): optionList != null  =>   optionList == null
+ROR_3:41:void_start(): optionIndex < optionList.size()  =>   optionIndex > optionList.size()
+ROR_4:41:void_start(): optionIndex < optionList.size()  =>   optionIndex >= optionList.size()
+ROR_5:41:void_start(): optionIndex < optionList.size()  =>   optionIndex <= optionList.size()
+ROR_6:41:void_start(): optionIndex < optionList.size()  =>   optionIndex == optionList.size()
+ROR_7:41:void_start(): optionIndex < optionList.size()  =>   optionIndex != optionList.size()
+ROR_8:41:void_start(): optionIndex < optionList.size()  =>   true
+ROR_9:41:void_start(): optionIndex < optionList.size()  =>   false
+ROR_10:51:void_start(): timeZone != null  =>   timeZone == null
+ROR_11:63:java.lang.String_convert(java.lang.Object): o == null  =>   o != null

@@ -1,0 +1,2 @@
+RolloverFailure(java.lang.String)
+RolloverFailure(java.lang.String,java.lang.Throwable)

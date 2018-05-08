@@ -1,0 +1,8 @@
+BeanDescription(java.lang.Class,java.util.Map,java.util.Map,java.util.Map)
+java.lang.Class_getClazz()
+java.util.Map_getPropertyNameToGetter()
+java.util.Map_getPropertyNameToSetter()
+java.lang.reflect.Method_getGetter(java.lang.String)
+java.lang.reflect.Method_getSetter(java.lang.String)
+java.util.Map_getPropertyNameToAdder()
+java.lang.reflect.Method_getAdder(java.lang.String)

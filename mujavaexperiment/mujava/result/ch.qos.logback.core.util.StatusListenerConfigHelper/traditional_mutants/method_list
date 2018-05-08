@@ -1,0 +1,5 @@
+void_installIfAsked(ch.qos.logback.core.Context)
+void_addStatusListener(ch.qos.logback.core.Context,java.lang.String)
+void_initAndAddListener(ch.qos.logback.core.Context,ch.qos.logback.core.status.StatusListener)
+ch.qos.logback.core.status.StatusListener_createListenerPerClassName(ch.qos.logback.core.Context,java.lang.String)
+void_addOnConsoleListenerInstance(ch.qos.logback.core.Context,ch.qos.logback.core.status.OnConsoleStatusListener)

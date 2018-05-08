@@ -1,0 +1,7 @@
+void_add(ch.qos.logback.core.status.Status)
+java.util.List_getCopyOfStatusList()
+int_getCount()
+boolean_add(ch.qos.logback.core.status.StatusListener)
+void_remove(ch.qos.logback.core.status.StatusListener)
+void_clear()
+java.util.List_getCopyOfStatusListenerList()

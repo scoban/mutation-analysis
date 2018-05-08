@@ -1,0 +1,3 @@
+void_escape(java.lang.String,java.lang.StringBuffer,char,int)
+java.lang.String_formatEscapeCharsForListing(java.lang.String)
+java.lang.String_basicEscape(java.lang.String)

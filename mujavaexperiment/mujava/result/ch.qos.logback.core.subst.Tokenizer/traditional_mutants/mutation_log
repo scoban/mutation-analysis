@@ -1,0 +1,21 @@
+ROR_1:43:java.util.List_tokenize(): pointer < patternLength  =>   pointer > patternLength
+ROR_2:43:java.util.List_tokenize(): pointer < patternLength  =>   pointer >= patternLength
+ROR_3:43:java.util.List_tokenize(): pointer < patternLength  =>   pointer <= patternLength
+ROR_4:43:java.util.List_tokenize(): pointer < patternLength  =>   pointer == patternLength
+ROR_5:43:java.util.List_tokenize(): pointer < patternLength  =>   pointer != patternLength
+ROR_6:43:java.util.List_tokenize(): pointer < patternLength  =>   true
+ROR_7:43:java.util.List_tokenize(): pointer < patternLength  =>   false
+ROR_8:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   c > CoreConstants.CURLY_LEFT
+ROR_9:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   c >= CoreConstants.CURLY_LEFT
+ROR_10:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   c < CoreConstants.CURLY_LEFT
+ROR_11:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   c <= CoreConstants.CURLY_LEFT
+ROR_12:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   c != CoreConstants.CURLY_LEFT
+ROR_13:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   true
+ROR_14:114:void_handleStartState(char,java.util.List,java.lang.StringBuilder): c == CoreConstants.CURLY_LEFT  =>   false
+ROR_15:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   stringBuilder.length() > 0
+ROR_16:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   stringBuilder.length() >= 0
+ROR_17:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   stringBuilder.length() < 0
+ROR_18:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   stringBuilder.length() <= 0
+ROR_19:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   stringBuilder.length() != 0
+ROR_20:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   true
+ROR_21:157:void_addLiteralToken(java.util.List,java.lang.StringBuilder): stringBuilder.length() == 0  =>   false

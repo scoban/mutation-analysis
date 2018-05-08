@@ -1,0 +1,7 @@
+ROR_1:33:void_run(): delay.getMilliseconds() > 0  =>   delay.getMilliseconds() >= 0
+ROR_2:33:void_run(): delay.getMilliseconds() > 0  =>   delay.getMilliseconds() < 0
+ROR_3:33:void_run(): delay.getMilliseconds() > 0  =>   delay.getMilliseconds() <= 0
+ROR_4:33:void_run(): delay.getMilliseconds() > 0  =>   delay.getMilliseconds() == 0
+ROR_5:33:void_run(): delay.getMilliseconds() > 0  =>   delay.getMilliseconds() != 0
+ROR_6:33:void_run(): delay.getMilliseconds() > 0  =>   true
+ROR_7:33:void_run(): delay.getMilliseconds() > 0  =>   false

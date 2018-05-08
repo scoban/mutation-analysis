@@ -1,0 +1,1 @@
+ROR_1:24:void_setName(java.lang.String): this.name != null  =>   this.name == null

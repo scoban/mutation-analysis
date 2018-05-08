@@ -1,0 +1,1 @@
+ROR_1:23:java.lang.String_getText(): text != null  =>   text == null

@@ -1,0 +1,28 @@
+ROR_1:35:boolean_isPresumedInError(): recoveryCoordinator != null  =>   recoveryCoordinator == null
+ROR_2:72:void_flush(): os != null  =>   os == null
+ROR_3:89:void_postSuccessfulWrite(): recoveryCoordinator != null  =>   recoveryCoordinator == null
+ROR_4:100:void_postIOFailure(java.io.IOException): recoveryCoordinator == null  =>   recoveryCoordinator != null
+ROR_5:108:void_close(): os != null  =>   os == null
+ROR_6:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   statusCount > STATUS_COUNT_LIMIT
+ROR_7:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   statusCount >= STATUS_COUNT_LIMIT
+ROR_8:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   statusCount <= STATUS_COUNT_LIMIT
+ROR_9:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   statusCount == STATUS_COUNT_LIMIT
+ROR_10:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   statusCount != STATUS_COUNT_LIMIT
+ROR_11:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   true
+ROR_12:131:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount < STATUS_COUNT_LIMIT  =>   false
+ROR_13:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   statusCount > STATUS_COUNT_LIMIT
+ROR_14:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   statusCount >= STATUS_COUNT_LIMIT
+ROR_15:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   statusCount < STATUS_COUNT_LIMIT
+ROR_16:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   statusCount <= STATUS_COUNT_LIMIT
+ROR_17:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   statusCount != STATUS_COUNT_LIMIT
+ROR_18:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   true
+ROR_19:134:void_addStatusIfCountNotOverLimit(ch.qos.logback.core.status.Status): statusCount == STATUS_COUNT_LIMIT  =>   false
+ROR_20:142:void_addStatus(ch.qos.logback.core.status.Status): context == null  =>   context != null
+ROR_21:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ > 0
+ROR_22:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ >= 0
+ROR_23:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ < 0
+ROR_24:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ <= 0
+ROR_25:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ != 0
+ROR_26:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   true
+ROR_27:143:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   false
+ROR_28:149:void_addStatus(ch.qos.logback.core.status.Status): sm != null  =>   sm == null

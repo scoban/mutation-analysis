@@ -1,0 +1,7 @@
+java.lang.String_getPattern()
+void_setPattern(java.lang.String)
+boolean_isOutputPatternAsHeader()
+void_setOutputPatternAsHeader(boolean)
+boolean_isOutputPatternAsPresentationHeader()
+void_setOutputPatternAsPresentationHeader(boolean)
+void_setLayout(ch.qos.logback.core.Layout)

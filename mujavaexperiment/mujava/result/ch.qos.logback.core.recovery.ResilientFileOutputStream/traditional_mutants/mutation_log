@@ -1,0 +1,1 @@
+ROR_1:29:java.nio.channels.FileChannel_getChannel(): os == null  =>   os != null

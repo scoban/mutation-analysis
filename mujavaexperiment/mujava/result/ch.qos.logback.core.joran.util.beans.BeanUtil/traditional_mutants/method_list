@@ -1,0 +1,7 @@
+boolean_isAdder(java.lang.reflect.Method)
+boolean_isGetter(java.lang.reflect.Method)
+int_getParameterCount(java.lang.reflect.Method)
+boolean_isSetter(java.lang.reflect.Method)
+java.lang.String_getPropertyName(java.lang.reflect.Method)
+java.lang.String_toLowerCamelCase(java.lang.String)
+java.lang.String_getSubstringIfPrefixMatches(java.lang.String,java.lang.String)

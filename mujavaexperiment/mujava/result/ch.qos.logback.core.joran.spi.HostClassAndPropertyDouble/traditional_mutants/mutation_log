@@ -1,0 +1,9 @@
+ROR_1:34:int_hashCode(): hostClass == null  =>   hostClass != null
+ROR_2:35:int_hashCode(): propertyName == null  =>   propertyName != null
+ROR_3:41:boolean_equals(java.lang.Object): this == obj  =>   this != obj
+ROR_4:44:boolean_equals(java.lang.Object): obj == null  =>   obj != null
+ROR_5:47:boolean_equals(java.lang.Object): getClass() != obj.getClass()  =>   getClass() == obj.getClass()
+ROR_6:51:boolean_equals(java.lang.Object): hostClass == null  =>   hostClass != null
+ROR_7:52:boolean_equals(java.lang.Object): other.hostClass != null  =>   other.hostClass == null
+ROR_8:60:boolean_equals(java.lang.Object): propertyName == null  =>   propertyName != null
+ROR_9:61:boolean_equals(java.lang.Object): other.propertyName != null  =>   other.propertyName == null

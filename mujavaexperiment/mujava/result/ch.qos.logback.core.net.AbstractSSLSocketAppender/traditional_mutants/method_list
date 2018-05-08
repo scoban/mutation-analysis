@@ -1,0 +1,5 @@
+AbstractSSLSocketAppender()
+javax.net.SocketFactory_getSocketFactory()
+void_start()
+ch.qos.logback.core.net.ssl.SSLConfiguration_getSsl()
+void_setSsl(ch.qos.logback.core.net.ssl.SSLConfiguration)

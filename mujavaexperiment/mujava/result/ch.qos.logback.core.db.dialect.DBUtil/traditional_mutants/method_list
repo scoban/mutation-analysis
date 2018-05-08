@@ -1,0 +1,4 @@
+ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData)
+ch.qos.logback.core.db.dialect.SQLDialect_getDialectFromCode(ch.qos.logback.core.db.dialect.SQLDialectCode)
+boolean_supportsGetGeneratedKeys(java.sql.DatabaseMetaData)
+boolean_supportsBatchUpdates(java.sql.DatabaseMetaData)

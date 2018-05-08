@@ -1,0 +1,3 @@
+ScanException(java.lang.String)
+ScanException(java.lang.String,java.lang.Throwable)
+java.lang.Throwable_getCause()

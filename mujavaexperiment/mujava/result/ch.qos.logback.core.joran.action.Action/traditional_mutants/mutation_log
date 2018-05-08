@@ -1,0 +1,2 @@
+ROR_1:54:int_getColumnNumber(ch.qos.logback.core.joran.spi.InterpretationContext): locator != null  =>   locator == null
+ROR_2:64:int_getLineNumber(ch.qos.logback.core.joran.spi.InterpretationContext): locator != null  =>   locator == null

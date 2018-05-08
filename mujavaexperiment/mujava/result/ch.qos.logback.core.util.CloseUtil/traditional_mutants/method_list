@@ -1,0 +1,3 @@
+void_closeQuietly(java.io.Closeable)
+void_closeQuietly(java.net.Socket)
+void_closeQuietly(java.net.ServerSocket)

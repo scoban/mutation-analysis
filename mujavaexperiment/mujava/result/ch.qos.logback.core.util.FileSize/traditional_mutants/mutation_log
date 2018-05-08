@@ -1,0 +1,21 @@
+ROR_1:76:java.lang.String_toString(): inKB == 0  =>   inKB > 0
+ROR_2:76:java.lang.String_toString(): inKB == 0  =>   inKB >= 0
+ROR_3:76:java.lang.String_toString(): inKB == 0  =>   inKB < 0
+ROR_4:76:java.lang.String_toString(): inKB == 0  =>   inKB <= 0
+ROR_5:76:java.lang.String_toString(): inKB == 0  =>   inKB != 0
+ROR_6:76:java.lang.String_toString(): inKB == 0  =>   true
+ROR_7:76:java.lang.String_toString(): inKB == 0  =>   false
+ROR_8:80:java.lang.String_toString(): inMB == 0  =>   inMB > 0
+ROR_9:80:java.lang.String_toString(): inMB == 0  =>   inMB >= 0
+ROR_10:80:java.lang.String_toString(): inMB == 0  =>   inMB < 0
+ROR_11:80:java.lang.String_toString(): inMB == 0  =>   inMB <= 0
+ROR_12:80:java.lang.String_toString(): inMB == 0  =>   inMB != 0
+ROR_13:80:java.lang.String_toString(): inMB == 0  =>   true
+ROR_14:80:java.lang.String_toString(): inMB == 0  =>   false
+ROR_15:84:java.lang.String_toString(): inGB == 0  =>   inGB > 0
+ROR_16:84:java.lang.String_toString(): inGB == 0  =>   inGB >= 0
+ROR_17:84:java.lang.String_toString(): inGB == 0  =>   inGB < 0
+ROR_18:84:java.lang.String_toString(): inGB == 0  =>   inGB <= 0
+ROR_19:84:java.lang.String_toString(): inGB == 0  =>   inGB != 0
+ROR_20:84:java.lang.String_toString(): inGB == 0  =>   true
+ROR_21:84:java.lang.String_toString(): inGB == 0  =>   false

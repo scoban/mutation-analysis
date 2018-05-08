@@ -1,0 +1,22 @@
+ROR_1:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   appenderMap.size() > 0
+ROR_2:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   appenderMap.size() >= 0
+ROR_3:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   appenderMap.size() < 0
+ROR_4:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   appenderMap.size() <= 0
+ROR_5:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   appenderMap.size() != 0
+ROR_6:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   true
+ROR_7:62:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() == 0  =>   false
+ROR_8:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   appenderMap.size() >= 1
+ROR_9:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   appenderMap.size() < 1
+ROR_10:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   appenderMap.size() <= 1
+ROR_11:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   appenderMap.size() == 1
+ROR_12:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   appenderMap.size() != 1
+ROR_13:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   true
+ROR_14:66:void_oneAndOnlyOneCheck(java.util.Map): appenderMap.size() > 1  =>   false
+ROR_15:71:void_oneAndOnlyOneCheck(java.util.Map): errMsg != null  =>   errMsg == null
+ROR_16:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   errorEmmissionCount > CoreConstants.MAX_ERROR_COUNT
+ROR_17:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   errorEmmissionCount >= CoreConstants.MAX_ERROR_COUNT
+ROR_18:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   errorEmmissionCount <= CoreConstants.MAX_ERROR_COUNT
+ROR_19:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   errorEmmissionCount == CoreConstants.MAX_ERROR_COUNT
+ROR_20:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   errorEmmissionCount != CoreConstants.MAX_ERROR_COUNT
+ROR_21:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   true
+ROR_22:71:void_oneAndOnlyOneCheck(java.util.Map): errorEmmissionCount < CoreConstants.MAX_ERROR_COUNT  =>   false

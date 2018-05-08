@@ -1,0 +1,12 @@
+ROR_1:37:void_setContext(ch.qos.logback.core.Context): this.context == null  =>   this.context != null
+ROR_2:40:void_setContext(ch.qos.logback.core.Context): this.context != context  =>   this.context == context
+ROR_3:53:ch.qos.logback.core.status.StatusManager_getStatusManager(): context == null  =>   context != null
+ROR_4:61:void_addStatus(ch.qos.logback.core.status.Status): context == null  =>   context != null
+ROR_5:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ > 0
+ROR_6:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ >= 0
+ROR_7:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ < 0
+ROR_8:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ <= 0
+ROR_9:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   noContextWarning++ != 0
+ROR_10:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   true
+ROR_11:62:void_addStatus(ch.qos.logback.core.status.Status): noContextWarning++ == 0  =>   false
+ROR_12:68:void_addStatus(ch.qos.logback.core.status.Status): sm != null  =>   sm == null

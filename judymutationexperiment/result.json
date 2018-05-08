@@ -1,0 +1,3281 @@
+{
+  "summary": {
+    "date": "May 8, 2018",
+    "time": "1:20:30 PM",
+    "duration": 37,
+    "testCount": 129,
+    "evaluatedClassesCount": 226,
+    "mutatedClassesCount": 21,
+    "score": 0.0,
+    "allKilledMutantsCount": 3,
+    "allMutantsCount": 75,
+    "testsRuns": 128,
+    "testsDuration": 5808
+  },
+  "operators": [
+    {
+      "name": "LIR_Xor",
+      "description": "replace binary logical instructions with XOR"
+    },
+    {
+      "name": "SIR_Ushr",
+      "description": "replace shift instructions with USHR"
+    },
+    {
+      "name": "CCD",
+      "description": "compareTo method distortion"
+    },
+    {
+      "name": "FBD",
+      "description": "break statements removal from switch"
+    },
+    {
+      "name": "ISI",
+      "description": "insert super keyword before fields and methods calls"
+    },
+    {
+      "name": "IOR",
+      "description": "rename overridden method"
+    },
+    {
+      "name": "JIR_Ifle",
+      "description": "replace jump instructions with IFLE (IF_ICMPLE)"
+    },
+    {
+      "name": "JIR_Ifgt",
+      "description": "replace jump instructions with IFGT (IF_ICMPGT)"
+    },
+    {
+      "name": "CST",
+      "description": "Changes LinkedHashSet to HashSet to shuffle order of elements in LinkedHashSet"
+    },
+    {
+      "name": "LIR_And",
+      "description": "replace binary logical instructions with AND"
+    },
+    {
+      "name": "LIR_RightOperand",
+      "description": "replace binary logical instructions with their right operands"
+    },
+    {
+      "name": "AIR_Rem",
+      "description": "replace basic binary arithmetic instructions with REM"
+    },
+    {
+      "name": "JIR_Iflt",
+      "description": "replace jump instructions with IFLT (IF_ICMPLT)"
+    },
+    {
+      "name": "AIR_LeftOperand",
+      "description": "replace basic binary arithmetic instructions with their left operands"
+    },
+    {
+      "name": "JIR_Ifge",
+      "description": "replace jump instructions with IFGE (IF_ICMPGE)"
+    },
+    {
+      "name": "EMM",
+      "description": "change a modifier method name to other compatible modifier method names"
+    },
+    {
+      "name": "EGE",
+      "description": "generalization of caught errors"
+    },
+    {
+      "name": "EOC",
+      "description": "replace reference comparison with content comparison (equals) and vice-versa"
+    },
+    {
+      "name": "OAC",
+      "description": "change order or number of arguments in method invocations"
+    },
+    {
+      "name": "EAM",
+      "description": "change an accessor method name to other compatible accessor method names"
+    },
+    {
+      "name": "REV",
+      "description": "Reverses the list"
+    },
+    {
+      "name": "AIR_RightOperand",
+      "description": "replace basic binary arithmetic instructions with their right operands"
+    },
+    {
+      "name": "ISD",
+      "description": "delete super keyword before fields and methods calls"
+    },
+    {
+      "name": "OMD",
+      "description": "delete overloading method declarations, one at a time"
+    },
+    {
+      "name": "EOA",
+      "description": "replace reference assignment with content assignment (clone) and vice-versa"
+    },
+    {
+      "name": "ORV",
+      "description": "Reverses the order of collections with ordering based on comparator"
+    },
+    {
+      "name": "JIR_Ifnull",
+      "description": "replace jump instruction IFNULL with IFNONNULL and vice-versa"
+    },
+    {
+      "name": "SCR",
+      "description": "stream closing removal"
+    },
+    {
+      "name": "AIR_Sub",
+      "description": "replace basic binary arithmetic instructions with SUB"
+    },
+    {
+      "name": "OMR",
+      "description": "change overloading method"
+    },
+    {
+      "name": "JTD",
+      "description": "delete this keyword when field has the same name as parameter"
+    },
+    {
+      "name": "JID",
+      "description": "delete field initialization"
+    },
+    {
+      "name": "LIR_LeftOperand",
+      "description": "replace binary logical instructions with their left operands"
+    },
+    {
+      "name": "PRV",
+      "description": "change operands of reference assignment"
+    },
+    {
+      "name": "AIR_Mul",
+      "description": "replace basic binary arithmetic instructions with MUL"
+    },
+    {
+      "name": "DUL",
+      "description": "Duplicates element in the list"
+    },
+    {
+      "name": "PNC",
+      "description": "call new with child class type"
+    },
+    {
+      "name": "CSR",
+      "description": "collection synchronization removal"
+    },
+    {
+      "name": "CCE",
+      "description": "Clears the collection"
+    },
+    {
+      "name": "IOD",
+      "description": "delete overriding method"
+    },
+    {
+      "name": "PLD",
+      "description": "change local variable type to super class of original type"
+    },
+    {
+      "name": "IOP",
+      "description": "relocate calls to overridden method"
+    },
+    {
+      "name": "SIR_LeftOperand",
+      "description": "replace shift instructions with their left operands"
+    },
+    {
+      "name": "JIR_Ifeq",
+      "description": "replace jump instructions with IFEQ (IF_ICMPEQ, IF_ACMPEQ)"
+    },
+    {
+      "name": "JDC",
+      "description": "delete the implemented default constructor"
+    },
+    {
+      "name": "LSF",
+      "description": "Shuffles the list"
+    },
+    {
+      "name": "SIR_Shl",
+      "description": "replace shift instructions with SHL"
+    },
+    {
+      "name": "IPC",
+      "description": "delete super constructor call"
+    },
+    {
+      "name": "SIR_Shr",
+      "description": "replace shift instructions with SHR"
+    },
+    {
+      "name": "AIR_Add",
+      "description": "replace basic binary arithmetic instructions with ADD"
+    },
+    {
+      "name": "CLR",
+      "description": "change list to set that does not allow to duplicated elements"
+    },
+    {
+      "name": "LIR_Or",
+      "description": "replace binary logical instructions with OR"
+    },
+    {
+      "name": "AIR_Div",
+      "description": "replace basic binary arithmetic instructions with DIV"
+    },
+    {
+      "name": "JTI",
+      "description": "insert \"this\" keyword when field has the same name as parameter"
+    },
+    {
+      "name": "JIR_Ifne",
+      "description": "replace jump instructions with IFNE (IF_ICMPNE, IF_ACMPNE)"
+    },
+    {
+      "name": "PPD",
+      "description": "change parameter type to super class of original type"
+    }
+  ],
+  "tests": [
+    {
+      "name": "ch.qos.logback.core.FileAppenderResilience_AS_ROOT_Test",
+      "duration": 15,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.StringCollectionUtilTest",
+      "duration": 13,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.ThrowableToStringArrayTest",
+      "duration": 11,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.NoAutoStartUtilTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.FileStoreUtilTest",
+      "duration": 11,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.AllCoreTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ServerSocketAppenderBaseFunctionalTest",
+      "duration": 1,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusBaseTest",
+      "duration": 16,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.ContextBaseTest",
+      "duration": 33,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.FileFilterUtilTest",
+      "duration": 22,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.FileAppenderResilienceTest",
+      "duration": 248,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.KeyStoreFactoryBeanTest",
+      "duration": 48,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLParametersConfigurationTest",
+      "duration": 103,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.implicitAction.ImplicitActionTest",
+      "duration": 245,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistryTest",
+      "duration": 8,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLConfigurationTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.JVMExitBeforeCompressionISDoneTest",
+      "duration": 3,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.DatePatternToRegexTest",
+      "duration": 78,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.SizeBasedRollingTest",
+      "duration": 1571,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.MultiThreadedRollingTest",
+      "duration": 2334,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.SimpleRuleStoreTest",
+      "duration": 121,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.RemoteReceiverStreamClientTest",
+      "duration": 25,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLContextFactoryBeanTest",
+      "duration": 22,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.CompilerTest",
+      "duration": 113,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.sift.AppenderTrackerTest",
+      "duration": 89,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.ContentTypeUtilTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.HardenedObjectInputStreamTest",
+      "duration": 157,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.encoder.ByteArrayUtilTest",
+      "duration": 17,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.PrudentFileAppenderInterruptTest",
+      "duration": 19,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.OptionTokenizerTest",
+      "duration": 2,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.BasicStatusManagerTest",
+      "duration": 21,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.replay.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.ConfigurationWatchListTest",
+      "duration": 3,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.util.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ConcurrentServerRunnerTest",
+      "duration": 59,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.DefaultSocketConnectorTest",
+      "duration": 81,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.PackageTest",
+      "duration": 1,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.AbstractServerSocketAppenderTest",
+      "duration": 68,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.subst.TokenizerTest",
+      "duration": 50,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.FormatInfoTest",
+      "duration": 11,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.encoder.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RenameUtilTest",
+      "duration": 41,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.LocationUtilTest",
+      "duration": 36,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.SSLServerSocketAppenderBaseTest",
+      "duration": 134,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.appender.DummyAppenderTest",
+      "duration": 61,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.FileSizeTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.appender.ConsoleAppenderTest",
+      "duration": 121,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.EnvUtilTest",
+      "duration": 22,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.ParserTest",
+      "duration": 153,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.TokenStreamTest",
+      "duration": 103,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TimeBasedRollingTest",
+      "duration": 533,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.ElementSelectorTest",
+      "duration": 24,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ServerSocketListenerTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.event.stax.StaxEventRecorderTest",
+      "duration": 59,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RollingFileAppenderTest",
+      "duration": 445,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSSLSocketAppenderTest",
+      "duration": 28,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.spi.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.KeyManagerFactoryFactoryBeanTest",
+      "duration": 7,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.event.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.COWArrayListTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.recovery.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AppenderAttachableImplTest",
+      "duration": 47,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LOGBACK_849.Basic",
+      "duration": 8,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.CharSequenceToRegexMapperTest",
+      "duration": 8,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.spi.CyclicBufferTrackerTest",
+      "duration": 36,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.StatusListenerConfigHelperTest",
+      "duration": 14,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.SkippingInInterpreterTest",
+      "duration": 85,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.LifeCycleManagerTest",
+      "duration": 4,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.TrivialConfiguratorTest",
+      "duration": 112,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.IfThenElseTest",
+      "duration": 12132,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusUtilTest",
+      "duration": 24,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.StatusPrinterTest",
+      "duration": 39,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.CachingFotmatterTest",
+      "duration": 2,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.status.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AppenderAttachableImplLockTest",
+      "duration": 171,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.SpacePadderTest",
+      "duration": 13,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.OptionHelperTest",
+      "duration": 416,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.spi.ScenarioBasedCyclicBufferTrackerTest",
+      "duration": 377,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.event.SaxEventRecorderTest",
+      "duration": 55,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.CompressTest",
+      "duration": 47,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.recovery.ResilientOutputStreamTest",
+      "duration": 2264,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemoverTest",
+      "duration": 44,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.CyclicBufferTest",
+      "duration": 5,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicyBaseTest",
+      "duration": 177,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.TrustManagerFactoryFactoryBeanTest",
+      "duration": 7,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.DefaultInvocationGateTest",
+      "duration": 11,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.subst.NodeToStringTransformerTest",
+      "duration": 120,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.read.CyclicBufferAppenderTest",
+      "duration": 18,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.subst.PackageTest",
+      "duration": 1,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.OutputStreamAppenderTest",
+      "duration": 96,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.subst.ParserTest",
+      "duration": 63,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SecureRandomFactoryBeanTest",
+      "duration": 14,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.parser.SamplePatternLayoutTest",
+      "duration": 173,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilderTest",
+      "duration": 3100,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.recovery.RecoveryCoordinatorTest",
+      "duration": 10,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.RollingCalendarTest",
+      "duration": 84,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.DurationTest",
+      "duration": 5,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.FileUtilTest",
+      "duration": 43,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.AsyncAppenderBaseTest",
+      "duration": 462,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.net.SyslogAppenderBaseTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.util.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.appender.FileAppenderTest",
+      "duration": 223,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.replay.FruitConfigurationTest",
+      "duration": 123,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.PropertyActionTest",
+      "duration": 193,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.CaseCombinatorTest",
+      "duration": 6,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.CollisionDetectionTest",
+      "duration": 160,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.event.InPlayFireTest",
+      "duration": 86,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.sift.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.appender.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.implicitAction.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.PackageTest",
+      "duration": 0,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.IncludeActionTest",
+      "duration": 664,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.IfThenElseAndIncludeCompositionTest",
+      "duration": 1918,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.FileNamePatternTest",
+      "duration": 217,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.util.PropertySetterTest",
+      "duration": 290,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.boolex.MatcherTest",
+      "duration": 33,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.DefinePropertyActionTest",
+      "duration": 174,
+      "result": "passed"
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP_Test",
+      "duration": 810,
+      "result": "passed"
+    }
+  ],
+  "classes": [
+    {
+      "name": "ch.qos.logback.core.spi.ComponentTracker",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BlueCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.AbstractServerSocketAppender$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.contention.AbstractMultiThreadedHarness",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.XMLUtil",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.util.SwimmingPool",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RollingPolicy",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LOGBACK_849.Basic$InterruptIgnoring",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.layout.EchoLayout",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldWhiteCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ConcurrentServerRunner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.Context",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SMTPAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.SQLiteDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.GreenCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.filter.EvaluatorFilter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.ConverterHello",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.hook.ShutdownHookBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.GrayCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.AbstractServerSocketAppender",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.AbstractEventEvaluatorAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ServerSocketListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.sift.SiftingJoranConfiguratorBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.PropertyContainer",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.JoranConfiguratorBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.MySQLDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.boolex.JaninoEventEvaluatorBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ImplicitAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.DefaultSocketConnector$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.NopStatusListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AppenderAttachableImplTest$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.OnConsoleStatusListener",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.encoder.Encoder",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.AppenderRefAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSSLSocketAppender",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SyslogAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.InstrumentedServerSocketAppenderBase$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LBCORE97$SynchronizedRunnable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.Status",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.html.CssBuilder",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.OracleDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ContextPropertyAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.DynamicConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLNestedComponentRegistryRules",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.RedCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.ArchiveRemover",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.MagentaCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.SSLServerSocketAppenderBaseTest$InstrumentedSSLServerSocketAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 7,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IPC"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.joran.node.ComponentNode",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.SQLDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.implicitAction.FruitContextAction",
+      "score": 0.0,
+      "mutantsCount": 11,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifle"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifne"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifne"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifge"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifgt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "EOC"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Iflt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.issue.NoLockingInJava",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.UnsynchronizedAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.ConnectionSource",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldBlueCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.NOPAction",
+      "score": 0.0,
+      "mutantsCount": 6,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "PPD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            -1
+          ]
+        },
+        {
+          "operators": [
+            "PPD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            -1
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.status.ErrorStatus",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SocketConnector",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.event.InPlayListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.ConnectionSourceBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.Layout",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.JNDIConnectionSource",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.lbcore258.FileLockSimulator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.ANSIConstants",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.html.NOPThrowableRenderer",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.InfoStatus",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ServerListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ServerRunner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.property.CanonicalHostNamePropertyDefiner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.sift.AbstractDiscriminator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.SybaseSqlAnywhereDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.DBHelper",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.boolex.EventEvaluatorBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.testUtil.CoreTestConstants",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSSLSocketAppenderTest$InstrumentedSSLSocketAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 7,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IPC"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.SSLServerSocketAppenderBaseTest$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.FilterAttachable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.property.ResourceExistsPropertyDefiner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.PatternLayoutBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.encoder.EncoderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.util.IEscapeUtil",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TriggeringPolicyBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSocketAppenderIntegrationTest$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.SequenceNumberGenerator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AbstractComponentTracker$RemovalPredicator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.util.AlmostAsIsEscapeUtil",
+      "score": 0.33333334,
+      "mutantsCount": 3,
+      "mutantsKilledCount": 1,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.FileOpener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.H2Dialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.DBUtil$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.Action",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.CyanCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.mock.MockContext$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.SQLDialectCode",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.OnPrintStreamStatusListenerBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.property.FileExistsPropertyDefiner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSocketAppender",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldGreenCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.util.SystemInfo",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SocketConnector$ExceptionHandler",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.DBAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicyBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.DriverManagerConnectionSource",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.sift.DefaultDiscriminator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.DefaultSocketConnector$ConsoleExceptionHandler",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BlackCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RolloverFailure",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.WarnStatus",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.BasicSequenceNumberGenerator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.PostgreSQLDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AppenderAttachable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSocketAppender$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.ThenOrElseActionBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SMTPAppenderBase$SenderRunnable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLComponent",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.layout.NopLayout",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.boolex.EventEvaluator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ParamAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.PropertyDefinerBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.Converter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.OnErrorConsoleStatusListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.Appender",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LockingInJava",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.DefaultSocketConnectorTest$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.ContextAware",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.DataSourceConnectionSource",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusListenerAsList",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.hook.ShutdownHook",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LockThroughput",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.FileMatchFunction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.DBUtil",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.sift.SiftingAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSocketAppenderIntegrationTest$SpyProducingObjectWriterFactory",
+      "score": 0.0,
+      "mutantsCount": 3,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "ISD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusListener",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldRedCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.NoAutoStart",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSL",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.recovery.ResilientSyslogOutputStream",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LBCORE97$LockRunnable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.SelectiveLockRunnable$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.util.DelayStrategy",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.Converter123",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.sift.Discriminator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.GenericConfigurator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.PreSerializationTransformer",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.WhiteCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.util.Loader$2",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLConfigurable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.hook.DefaultShutdownHook",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.html.IThrowableRenderer",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.SSLServerSocketAppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.ClientVisitor",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.sift.AppenderFactory",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.util.InvocationGate",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.AppenderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RolloverChecker",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldCyanCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.read.ListAppender",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.testUtil.NPEAppender",
+      "score": 0.0,
+      "mutantsCount": 3,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.Transform",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.SyslogConstants",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.RemoteReceiverClient",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ActionConst",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.DefaultClass",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.filter.Filter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.encoder.NonClosableInputStream",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.AppenderAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.BindDataSourceToJNDIAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.PropertyDefiner",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.HSQLDBDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.AbstractComponentTracker",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.helpers.NOPAppender",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.filter.AbstractMatcherFilter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.LiteralConverter",
+      "score": 0.5,
+      "mutantsCount": 4,
+      "mutantsKilledCount": 2,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.MonoTypedConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ConversionRuleAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.db.dialect.MsSQLDialect",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.TrivialConfigurator",
+      "score": 0.0,
+      "mutantsCount": 9,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "JIR_Ifne"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifle"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Iflt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifge"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifgt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.sift.AbstractAppenderFactoryUsingJoran",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.LayoutBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.YellowCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLConfigurableSocket",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.LifeCycle",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSocketAppenderIntegrationTest$InstrumentedSocketAppender$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.ExceptionalConverter",
+      "score": 0.0,
+      "mutantsCount": 8,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "JIR_Ifgt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifge"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifeq"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifle"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Iflt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "EGE"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.contention.WaitOnExecutionMultiThreadedHarness",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.spi.RuleStore",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.contention.RunnableWithCounterAndDone",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.TimestampAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.recovery.ResilientOutputStreamBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.TriggeringPolicy",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.LBCORE97",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.NewRuleAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.ContextBaseTest$InstrumentedContextBase",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldYellowCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.CompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.testUtil.StringListAppender",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.conditional.Condition",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.BoldMagentaCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.ViewStatusMessagesServletBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.status.StatusManager",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.PostCompileProcessor",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.color.ForegroundCompositeConverterBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.ZRolloverChecker",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.SelectiveLockRunnable$LockingModel",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.LoginAuthenticator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.helper.TokenConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.IdentityCompositeConverter",
+      "score": 0.0,
+      "mutantsCount": 2,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "IOR"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        },
+        {
+          "operators": [
+            "IOD"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback.core.issue.NoLockThroughput",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.FormattingConverter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.issue.SelectiveLockRunnable",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.spi.DeferredProcessingAware",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.AbstractSSLSocketAppenderTest$1",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.SequenceNumberGeneratorAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.rolling.RollingPolicyBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.contention.ThreadedThroughputCalculator",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.util.NetworkAddressUtil",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ObjectWriter",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.util.Citrus",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.server.Client",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.joran.action.ShutdownHookAction",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.net.ssl.SSLTestConstants",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    },
+    {
+      "name": "ch.qos.logback.core.html.HTMLLayoutBase",
+      "score": 0.0,
+      "mutantsCount": 0,
+      "mutantsKilledCount": 0,
+      "notKilledMutant": []
+    }
+  ]
+}

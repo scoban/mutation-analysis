@@ -1,0 +1,4 @@
+void_rollover()
+java.lang.String_getActiveFileName()
+ch.qos.logback.core.rolling.helper.CompressionMode_getCompressionMode()
+void_setParent(ch.qos.logback.core.FileAppender)

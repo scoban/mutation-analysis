@@ -1,0 +1,2 @@
+ch.qos.logback.core.net.ssl.SSLConfiguration_getSsl()
+void_setSsl(ch.qos.logback.core.net.ssl.SSLConfiguration)

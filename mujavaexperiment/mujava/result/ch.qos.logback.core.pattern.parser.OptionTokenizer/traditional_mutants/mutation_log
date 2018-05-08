@@ -1,0 +1,49 @@
+ROR_1:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   tokenStream.pointer > patternLength
+ROR_2:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   tokenStream.pointer >= patternLength
+ROR_3:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   tokenStream.pointer <= patternLength
+ROR_4:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   tokenStream.pointer == patternLength
+ROR_5:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   tokenStream.pointer != patternLength
+ROR_6:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   true
+ROR_7:60:void_tokenize(char,java.util.List): tokenStream.pointer < patternLength  =>   false
+ROR_8:108:void_tokenize(char,java.util.List): c == quoteChar  =>   c > quoteChar
+ROR_9:108:void_tokenize(char,java.util.List): c == quoteChar  =>   c >= quoteChar
+ROR_10:108:void_tokenize(char,java.util.List): c == quoteChar  =>   c < quoteChar
+ROR_11:108:void_tokenize(char,java.util.List): c == quoteChar  =>   c <= quoteChar
+ROR_12:108:void_tokenize(char,java.util.List): c == quoteChar  =>   c != quoteChar
+ROR_13:108:void_tokenize(char,java.util.List): c == quoteChar  =>   true
+ROR_14:108:void_tokenize(char,java.util.List): c == quoteChar  =>   false
+ROR_15:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c > ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_16:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c >= ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_17:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c < ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_18:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c <= ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_19:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c != ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_20:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   true
+ROR_21:113:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   false
+ROR_22:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   c > ch.qos.logback.core.CoreConstants.CURLY_RIGHT
+ROR_23:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   c >= ch.qos.logback.core.CoreConstants.CURLY_RIGHT
+ROR_24:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   c < ch.qos.logback.core.CoreConstants.CURLY_RIGHT
+ROR_25:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   c <= ch.qos.logback.core.CoreConstants.CURLY_RIGHT
+ROR_26:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   c != ch.qos.logback.core.CoreConstants.CURLY_RIGHT
+ROR_27:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   true
+ROR_28:125:void_tokenize(char,java.util.List): c == ch.qos.logback.core.CoreConstants.CURLY_RIGHT  =>   false
+ROR_29:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   state > EXPECTING_STATE
+ROR_30:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   state >= EXPECTING_STATE
+ROR_31:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   state < EXPECTING_STATE
+ROR_32:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   state <= EXPECTING_STATE
+ROR_33:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   state != EXPECTING_STATE
+ROR_34:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   true
+ROR_35:126:void_tokenize(char,java.util.List): state == EXPECTING_STATE  =>   false
+ROR_36:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   state > RAW_COLLECTING_STATE
+ROR_37:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   state >= RAW_COLLECTING_STATE
+ROR_38:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   state < RAW_COLLECTING_STATE
+ROR_39:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   state <= RAW_COLLECTING_STATE
+ROR_40:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   state != RAW_COLLECTING_STATE
+ROR_41:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   true
+ROR_42:129:void_tokenize(char,java.util.List): state == RAW_COLLECTING_STATE  =>   false
+ROR_43:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   tokenStream.pointer > patternLength
+ROR_44:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   tokenStream.pointer >= patternLength
+ROR_45:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   tokenStream.pointer <= patternLength
+ROR_46:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   tokenStream.pointer == patternLength
+ROR_47:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   tokenStream.pointer != patternLength
+ROR_48:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   true
+ROR_49:149:void_escape(java.lang.String,java.lang.StringBuffer): tokenStream.pointer < patternLength  =>   false

@@ -1,0 +1,1 @@
+ROR_1:51:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o != sequenceNumberGenerator  =>   o == sequenceNumberGenerator

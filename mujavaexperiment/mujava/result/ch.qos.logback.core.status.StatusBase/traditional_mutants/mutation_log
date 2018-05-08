@@ -1,0 +1,34 @@
+ROR_1:45:void_add(ch.qos.logback.core.status.Status): child == null  =>   child != null
+ROR_2:48:void_add(ch.qos.logback.core.status.Status): childrenList == null  =>   childrenList != null
+ROR_3:56:boolean_hasChildren(): childrenList != null  =>   childrenList == null
+ROR_4:56:boolean_hasChildren(): childrenList.size() > 0  =>   childrenList.size() >= 0
+ROR_5:56:boolean_hasChildren(): childrenList.size() > 0  =>   childrenList.size() < 0
+ROR_6:56:boolean_hasChildren(): childrenList.size() > 0  =>   childrenList.size() <= 0
+ROR_7:56:boolean_hasChildren(): childrenList.size() > 0  =>   childrenList.size() == 0
+ROR_8:56:boolean_hasChildren(): childrenList.size() > 0  =>   childrenList.size() != 0
+ROR_9:56:boolean_hasChildren(): childrenList.size() > 0  =>   true
+ROR_10:56:boolean_hasChildren(): childrenList.size() > 0  =>   false
+ROR_11:61:java.util.Iterator_iterator(): childrenList != null  =>   childrenList == null
+ROR_12:70:boolean_remove(ch.qos.logback.core.status.Status): childrenList == null  =>   childrenList != null
+ROR_13:90:int_getEffectiveLevel(): effLevel > result  =>   effLevel >= result
+ROR_14:90:int_getEffectiveLevel(): effLevel > result  =>   effLevel < result
+ROR_15:90:int_getEffectiveLevel(): effLevel > result  =>   effLevel <= result
+ROR_16:90:int_getEffectiveLevel(): effLevel > result  =>   effLevel == result
+ROR_17:90:int_getEffectiveLevel(): effLevel > result  =>   effLevel != result
+ROR_18:90:int_getEffectiveLevel(): effLevel > result  =>   true
+ROR_19:90:int_getEffectiveLevel(): effLevel > result  =>   false
+ROR_20:134:java.lang.String_toString(): origin != null  =>   origin == null
+ROR_21:141:java.lang.String_toString(): throwable != null  =>   throwable == null
+ROR_22:153:int_hashCode(): message == null  =>   message != null
+ROR_23:159:boolean_equals(java.lang.Object): this == obj  =>   this != obj
+ROR_24:162:boolean_equals(java.lang.Object): obj == null  =>   obj != null
+ROR_25:165:boolean_equals(java.lang.Object): getClass() != obj.getClass()  =>   getClass() == obj.getClass()
+ROR_26:169:boolean_equals(java.lang.Object): level != other.level  =>   level > other.level
+ROR_27:169:boolean_equals(java.lang.Object): level != other.level  =>   level >= other.level
+ROR_28:169:boolean_equals(java.lang.Object): level != other.level  =>   level < other.level
+ROR_29:169:boolean_equals(java.lang.Object): level != other.level  =>   level <= other.level
+ROR_30:169:boolean_equals(java.lang.Object): level != other.level  =>   level == other.level
+ROR_31:169:boolean_equals(java.lang.Object): level != other.level  =>   true
+ROR_32:169:boolean_equals(java.lang.Object): level != other.level  =>   false
+ROR_33:172:boolean_equals(java.lang.Object): message == null  =>   message != null
+ROR_34:173:boolean_equals(java.lang.Object): other.message != null  =>   other.message == null

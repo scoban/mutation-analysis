@@ -1,0 +1,11 @@
+ROR_1:47:javax.net.ssl.SSLContext_createContext(ch.qos.logback.core.spi.ContextAware): getProvider() != null  =>   getProvider() == null
+ROR_2:59:javax.net.ssl.KeyManager[]_createKeyManagers(ch.qos.logback.core.spi.ContextAware): getKeyStore() == null  =>   getKeyStore() != null
+ROR_3:74:javax.net.ssl.TrustManager[]_createTrustManagers(ch.qos.logback.core.spi.ContextAware): getTrustStore() == null  =>   getTrustStore() != null
+ROR_4:95:ch.qos.logback.core.net.ssl.KeyStoreFactoryBean_getKeyStore(): keyStore == null  =>   keyStore != null
+ROR_5:108:ch.qos.logback.core.net.ssl.KeyStoreFactoryBean_getTrustStore(): trustStore == null  =>   trustStore != null
+ROR_6:121:ch.qos.logback.core.net.ssl.KeyStoreFactoryBean_keyStoreFromSystemProperties(java.lang.String): System.getProperty( property ) == null  =>   System.getProperty( property ) != null
+ROR_7:135:java.lang.String_locationFromSystemProperty(java.lang.String): location != null  =>   location == null
+ROR_8:143:ch.qos.logback.core.net.ssl.SecureRandomFactoryBean_getSecureRandom(): secureRandom == null  =>   secureRandom != null
+ROR_9:156:ch.qos.logback.core.net.ssl.KeyManagerFactoryFactoryBean_getKeyManagerFactory(): keyManagerFactory == null  =>   keyManagerFactory != null
+ROR_10:169:ch.qos.logback.core.net.ssl.TrustManagerFactoryFactoryBean_getTrustManagerFactory(): trustManagerFactory == null  =>   trustManagerFactory != null
+ROR_11:182:java.lang.String_getProtocol(): protocol == null  =>   protocol != null

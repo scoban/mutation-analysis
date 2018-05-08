@@ -1,0 +1,3 @@
+java.lang.String_escapeTags(java.lang.String)
+java.lang.String_escapeTags(java.lang.StringBuffer)
+void_appendEscapingCDATA(java.lang.StringBuilder,java.lang.String)

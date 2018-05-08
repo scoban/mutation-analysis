@@ -1,0 +1,2 @@
+ROR_1:72:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o != definer  =>   o == definer
+ROR_2:78:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): propertyValue != null  =>   propertyValue == null

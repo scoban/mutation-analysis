@@ -1,0 +1,9 @@
+ROR_1:40:boolean_equals(java.lang.Object): this == o  =>   this != o
+ROR_2:43:boolean_equals(java.lang.Object): o == null  =>   o != null
+ROR_3:43:boolean_equals(java.lang.Object): getClass() != o.getClass()  =>   getClass() == o.getClass()
+ROR_4:47:boolean_equals(java.lang.Object): type != token.type  =>   type == token.type
+ROR_5:50:boolean_equals(java.lang.Object): payload != null  =>   payload == null
+ROR_6:50:boolean_equals(java.lang.Object): token.payload != null  =>   token.payload == null
+ROR_7:58:int_hashCode(): type != null  =>   type == null
+ROR_8:59:int_hashCode(): payload != null  =>   payload == null
+ROR_9:66:java.lang.String_toString(): payload != null  =>   payload == null

@@ -1,0 +1,3 @@
+java.lang.String_getPath()
+void_setPath(java.lang.String)
+java.lang.String_getPropertyValue()

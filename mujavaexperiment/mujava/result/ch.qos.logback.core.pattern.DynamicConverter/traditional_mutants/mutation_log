@@ -1,0 +1,8 @@
+ROR_1:46:java.lang.String_getFirstOption(): optionList == null  =>   optionList != null
+ROR_2:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   optionList.size() > 0
+ROR_3:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   optionList.size() >= 0
+ROR_4:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   optionList.size() < 0
+ROR_5:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   optionList.size() <= 0
+ROR_6:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   optionList.size() != 0
+ROR_7:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   true
+ROR_8:46:java.lang.String_getFirstOption(): optionList.size() == 0  =>   false

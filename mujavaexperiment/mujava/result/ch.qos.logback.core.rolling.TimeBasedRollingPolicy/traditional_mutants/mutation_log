@@ -1,0 +1,23 @@
+ROR_1:52:void_start(): fileNamePatternStr != null  =>   fileNamePatternStr == null
+ROR_2:64:void_start(): compressionMode == CompressionMode.ZIP  =>   compressionMode != CompressionMode.ZIP
+ROR_3:68:void_start(): timeBasedFileNamingAndTriggeringPolicy == null  =>   timeBasedFileNamingAndTriggeringPolicy != null
+ROR_4:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   maxHistory > ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY
+ROR_5:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   maxHistory >= ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY
+ROR_6:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   maxHistory < ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY
+ROR_7:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   maxHistory <= ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY
+ROR_8:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   maxHistory == ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY
+ROR_9:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   true
+ROR_10:78:void_start(): maxHistory != ch.qos.logback.core.CoreConstants.UNBOUND_HISTORY  =>   false
+ROR_11:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   totalSizeCap.getSize() > ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP
+ROR_12:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   totalSizeCap.getSize() >= ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP
+ROR_13:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   totalSizeCap.getSize() < ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP
+ROR_14:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   totalSizeCap.getSize() <= ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP
+ROR_15:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   totalSizeCap.getSize() != ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP
+ROR_16:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   true
+ROR_17:97:boolean_isUnboundedTotalSizeCap(): totalSizeCap.getSize() == ch.qos.logback.core.CoreConstants.UNBOUNDED_TOTAL_SIZE_CAP  =>   false
+ROR_18:112:void_waitForAsynchronousJobToStop(java.util.concurrent.Future,java.lang.String): aFuture != null  =>   aFuture == null
+ROR_19:144:void_rollover(): compressionMode == CompressionMode.NONE  =>   compressionMode != CompressionMode.NONE
+ROR_20:145:void_rollover(): getParentsRawFileProperty() != null  =>   getParentsRawFileProperty() == null
+ROR_21:149:void_rollover(): getParentsRawFileProperty() == null  =>   getParentsRawFileProperty() != null
+ROR_22:155:void_rollover(): archiveRemover != null  =>   archiveRemover == null
+ROR_23:173:java.lang.String_getActiveFileName(): parentsRawFileProperty != null  =>   parentsRawFileProperty == null

@@ -1,0 +1,2 @@
+ch.qos.logback.core.net.ssl.SSLParametersConfiguration_getParameters()
+void_setParameters(ch.qos.logback.core.net.ssl.SSLParametersConfiguration)

@@ -1,0 +1,5 @@
+HostClassAndPropertyDouble(java.lang.Class,java.lang.String)
+java.lang.Class_getHostClass()
+java.lang.String_getPropertyName()
+int_hashCode()
+boolean_equals(java.lang.Object)

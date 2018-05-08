@@ -1,0 +1,4 @@
+java.lang.String[]_convert(java.lang.Throwable)
+void_extract(java.util.List,java.lang.Throwable,java.lang.StackTraceElement[])
+java.lang.String_formatFirstLine(java.lang.Throwable,java.lang.StackTraceElement[])
+int_findNumberOfCommonFrames(java.lang.StackTraceElement[],java.lang.StackTraceElement[])

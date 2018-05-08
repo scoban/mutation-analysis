@@ -1,0 +1,2 @@
+ErrorStatus(java.lang.String,java.lang.Object)
+ErrorStatus(java.lang.String,java.lang.Object,java.lang.Throwable)

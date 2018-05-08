@@ -1,0 +1,3 @@
+ROR_1:18:void_closeQuietly(java.io.Closeable): closeable == null  =>   closeable != null
+ROR_2:30:void_closeQuietly(java.net.Socket): socket == null  =>   socket != null
+ROR_3:42:void_closeQuietly(java.net.ServerSocket): serverSocket == null  =>   serverSocket != null

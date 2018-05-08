@@ -1,0 +1,2 @@
+boolean_isTextual(java.lang.String)
+java.lang.String_getSubType(java.lang.String)

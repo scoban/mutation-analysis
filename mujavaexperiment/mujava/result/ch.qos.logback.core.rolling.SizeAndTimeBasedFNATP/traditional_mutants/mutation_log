@@ -1,0 +1,30 @@
+ROR_1:56:void_start(): usage == Usage.DIRECT  =>   usage != Usage.DIRECT
+ROR_2:63:void_start(): maxFileSize == null  =>   maxFileSize != null
+ROR_3:84:boolean_validateDateAndIntegerTokens(): tbrp.fileNamePattern.getIntegerTokenConverter() == null  =>   tbrp.fileNamePattern.getIntegerTokenConverter() != null
+ROR_4:89:boolean_validateDateAndIntegerTokens(): tbrp.fileNamePattern.getPrimaryDateTokenConverter() == null  =>   tbrp.fileNamePattern.getPrimaryDateTokenConverter() != null
+ROR_5:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray == null  =>   matchingFileArray != null
+ROR_6:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   matchingFileArray.length > 0
+ROR_7:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   matchingFileArray.length >= 0
+ROR_8:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   matchingFileArray.length < 0
+ROR_9:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   matchingFileArray.length <= 0
+ROR_10:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   matchingFileArray.length != 0
+ROR_11:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   true
+ROR_12:106:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): matchingFileArray.length == 0  =>   false
+ROR_13:111:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): tbrp.getParentsRawFileProperty() != null  =>   tbrp.getParentsRawFileProperty() == null
+ROR_14:111:void_computeCurrentPeriodsHighestCounterValue(java.lang.String): tbrp.compressionMode != CompressionMode.NONE  =>   tbrp.compressionMode == CompressionMode.NONE
+ROR_15:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time > nextCheck
+ROR_16:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time < nextCheck
+ROR_17:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time <= nextCheck
+ROR_18:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time == nextCheck
+ROR_19:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time != nextCheck
+ROR_20:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   true
+ROR_21:121:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   false
+ROR_22:132:boolean_isTriggeringEvent(java.io.File,E): activeFile == null  =>   activeFile != null
+ROR_23:136:boolean_isTriggeringEvent(java.io.File,E): maxFileSize == null  =>   maxFileSize != null
+ROR_24:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   activeFile.length() > maxFileSize.getSize()
+ROR_25:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   activeFile.length() < maxFileSize.getSize()
+ROR_26:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   activeFile.length() <= maxFileSize.getSize()
+ROR_27:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   activeFile.length() == maxFileSize.getSize()
+ROR_28:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   activeFile.length() != maxFileSize.getSize()
+ROR_29:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   true
+ROR_30:140:boolean_isTriggeringEvent(java.io.File,E): activeFile.length() >= maxFileSize.getSize()  =>   false

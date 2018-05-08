@@ -1,0 +1,3 @@
+BeanDescriptionCache(ch.qos.logback.core.Context)
+ch.qos.logback.core.joran.util.beans.BeanDescriptionFactory_getBeanDescriptionFactory()
+ch.qos.logback.core.joran.util.beans.BeanDescription_getBeanDescription(java.lang.Class)

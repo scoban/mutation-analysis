@@ -1,0 +1,3 @@
+boolean_isStarted()
+void_start()
+void_stop()

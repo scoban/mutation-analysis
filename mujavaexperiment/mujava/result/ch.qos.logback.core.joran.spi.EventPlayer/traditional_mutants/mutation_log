@@ -1,0 +1,7 @@
+ROR_1:38:void_play(java.util.List): currentIndex < eventList.size()  =>   currentIndex > eventList.size()
+ROR_2:38:void_play(java.util.List): currentIndex < eventList.size()  =>   currentIndex >= eventList.size()
+ROR_3:38:void_play(java.util.List): currentIndex < eventList.size()  =>   currentIndex <= eventList.size()
+ROR_4:38:void_play(java.util.List): currentIndex < eventList.size()  =>   currentIndex == eventList.size()
+ROR_5:38:void_play(java.util.List): currentIndex < eventList.size()  =>   currentIndex != eventList.size()
+ROR_6:38:void_play(java.util.List): currentIndex < eventList.size()  =>   true
+ROR_7:38:void_play(java.util.List): currentIndex < eventList.size()  =>   false

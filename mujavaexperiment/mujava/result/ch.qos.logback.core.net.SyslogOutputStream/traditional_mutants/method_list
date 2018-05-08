@@ -1,0 +1,7 @@
+SyslogOutputStream(java.lang.String,int)
+void_write(byte,int,int)
+void_flush()
+void_close()
+int_getPort()
+void_write(int)
+int_getSendBufferSize()

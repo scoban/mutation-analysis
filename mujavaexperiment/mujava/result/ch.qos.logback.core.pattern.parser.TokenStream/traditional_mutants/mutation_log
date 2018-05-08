@@ -1,0 +1,85 @@
+ROR_1:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern == null  =>   pattern != null
+ROR_2:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   pattern.length() > 0
+ROR_3:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   pattern.length() >= 0
+ROR_4:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   pattern.length() < 0
+ROR_5:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   pattern.length() <= 0
+ROR_6:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   pattern.length() != 0
+ROR_7:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   true
+ROR_8:50:TokenStream(java.lang.String,ch.qos.logback.core.pattern.util.IEscapeUtil): pattern.length() == 0  =>   false
+ROR_9:63:java.util.List_tokenize(): pointer < patternLength  =>   pointer > patternLength
+ROR_10:63:java.util.List_tokenize(): pointer < patternLength  =>   pointer >= patternLength
+ROR_11:63:java.util.List_tokenize(): pointer < patternLength  =>   pointer <= patternLength
+ROR_12:63:java.util.List_tokenize(): pointer < patternLength  =>   pointer == patternLength
+ROR_13:63:java.util.List_tokenize(): pointer < patternLength  =>   pointer != patternLength
+ROR_14:63:java.util.List_tokenize(): pointer < patternLength  =>   true
+ROR_15:63:java.util.List_tokenize(): pointer < patternLength  =>   false
+ROR_16:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c > CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_17:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c >= CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_18:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c < CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_19:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c <= CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_20:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c != CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_21:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   true
+ROR_22:144:void_handleFormatModifierState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   false
+ROR_23:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   c > ch.qos.logback.core.CoreConstants.CURLY_LEFT
+ROR_24:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   c >= ch.qos.logback.core.CoreConstants.CURLY_LEFT
+ROR_25:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   c < ch.qos.logback.core.CoreConstants.CURLY_LEFT
+ROR_26:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   c <= ch.qos.logback.core.CoreConstants.CURLY_LEFT
+ROR_27:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   c != ch.qos.logback.core.CoreConstants.CURLY_LEFT
+ROR_28:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   true
+ROR_29:188:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.CURLY_LEFT  =>   false
+ROR_30:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c > CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_31:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c >= CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_32:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c < CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_33:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c <= CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_34:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   c != CoreConstants.LEFT_PARENTHESIS_CHAR
+ROR_35:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   true
+ROR_36:192:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.LEFT_PARENTHESIS_CHAR  =>   false
+ROR_37:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   c > CoreConstants.PERCENT_CHAR
+ROR_38:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   c >= CoreConstants.PERCENT_CHAR
+ROR_39:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   c < CoreConstants.PERCENT_CHAR
+ROR_40:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   c <= CoreConstants.PERCENT_CHAR
+ROR_41:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   c != CoreConstants.PERCENT_CHAR
+ROR_42:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   true
+ROR_43:196:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.PERCENT_CHAR  =>   false
+ROR_44:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   c > CoreConstants.RIGHT_PARENTHESIS_CHAR
+ROR_45:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   c >= CoreConstants.RIGHT_PARENTHESIS_CHAR
+ROR_46:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   c < CoreConstants.RIGHT_PARENTHESIS_CHAR
+ROR_47:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   c <= CoreConstants.RIGHT_PARENTHESIS_CHAR
+ROR_48:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   c != CoreConstants.RIGHT_PARENTHESIS_CHAR
+ROR_49:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   true
+ROR_50:201:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == CoreConstants.RIGHT_PARENTHESIS_CHAR  =>   false
+ROR_51:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c > ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_52:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c >= ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_53:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c < ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_54:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c <= ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_55:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   c != ch.qos.logback.core.CoreConstants.ESCAPE_CHAR
+ROR_56:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   true
+ROR_57:206:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): c == ch.qos.logback.core.CoreConstants.ESCAPE_CHAR  =>   false
+ROR_58:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   pointer > patternLength
+ROR_59:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   pointer >= patternLength
+ROR_60:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   pointer <= patternLength
+ROR_61:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   pointer == patternLength
+ROR_62:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   pointer != patternLength
+ROR_63:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   true
+ROR_64:207:void_handleKeywordState(char,java.util.List,java.lang.StringBuffer): pointer < patternLength  =>   false
+ROR_65:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer > patternLength
+ROR_66:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer >= patternLength
+ROR_67:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer <= patternLength
+ROR_68:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer == patternLength
+ROR_69:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer != patternLength
+ROR_70:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   true
+ROR_71:224:void_escape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   false
+ROR_72:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer > patternLength
+ROR_73:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer >= patternLength
+ROR_74:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer <= patternLength
+ROR_75:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer == patternLength
+ROR_76:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   pointer != patternLength
+ROR_77:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   true
+ROR_78:232:void_optionEscape(java.lang.String,java.lang.StringBuffer): pointer < patternLength  =>   false
+ROR_79:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   buf.length() >= 0
+ROR_80:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   buf.length() < 0
+ROR_81:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   buf.length() <= 0
+ROR_82:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   buf.length() == 0
+ROR_83:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   buf.length() != 0
+ROR_84:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   true
+ROR_85:240:void_addValuedToken(int,java.lang.StringBuffer,java.util.List): buf.length() > 0  =>   false

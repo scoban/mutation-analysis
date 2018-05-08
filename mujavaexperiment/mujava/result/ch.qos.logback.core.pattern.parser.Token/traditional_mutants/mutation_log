@@ -1,0 +1,12 @@
+ROR_1:124:java.lang.String_toString(): value == null  =>   value != null
+ROR_2:135:int_hashCode(): value != null  =>   value == null
+ROR_3:141:boolean_equals(java.lang.Object): this == o  =>   this != o
+ROR_4:148:boolean_equals(java.lang.Object): type != token.type  =>   type > token.type
+ROR_5:148:boolean_equals(java.lang.Object): type != token.type  =>   type >= token.type
+ROR_6:148:boolean_equals(java.lang.Object): type != token.type  =>   type < token.type
+ROR_7:148:boolean_equals(java.lang.Object): type != token.type  =>   type <= token.type
+ROR_8:148:boolean_equals(java.lang.Object): type != token.type  =>   type == token.type
+ROR_9:148:boolean_equals(java.lang.Object): type != token.type  =>   true
+ROR_10:148:boolean_equals(java.lang.Object): type != token.type  =>   false
+ROR_11:151:boolean_equals(java.lang.Object): value != null  =>   value == null
+ROR_12:151:boolean_equals(java.lang.Object): token.value != null  =>   token.value == null

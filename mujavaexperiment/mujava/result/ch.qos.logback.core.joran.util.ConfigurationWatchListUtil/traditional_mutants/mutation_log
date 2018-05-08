@@ -1,0 +1,5 @@
+ROR_1:34:void_setMainWatchURL(ch.qos.logback.core.Context,java.net.URL): cwl == null  =>   cwl != null
+ROR_2:47:java.net.URL_getMainWatchURL(ch.qos.logback.core.Context): cwl == null  =>   cwl != null
+ROR_3:57:void_addToWatchList(ch.qos.logback.core.Context,java.net.URL): cwl == null  =>   cwl != null
+ROR_4:72:void_addStatus(ch.qos.logback.core.Context,ch.qos.logback.core.status.Status): context == null  =>   context != null
+ROR_5:77:void_addStatus(ch.qos.logback.core.Context,ch.qos.logback.core.status.Status): sm == null  =>   sm != null

@@ -1,0 +1,19 @@
+ROR_1:36:boolean_createMissingParentDirectories(java.io.File): parent == null  =>   parent != null
+ROR_2:46:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): url == null  =>   url != null
+ROR_3:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   (count = isr.read( buf, 0, buf.length )) > -1
+ROR_4:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   (count = isr.read( buf, 0, buf.length )) >= -1
+ROR_5:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   (count = isr.read( buf, 0, buf.length )) < -1
+ROR_6:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   (count = isr.read( buf, 0, buf.length )) <= -1
+ROR_7:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   (count = isr.read( buf, 0, buf.length )) == -1
+ROR_8:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   true
+ROR_9:58:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): (count = isr.read( buf, 0, buf.length )) != -1  =>   false
+ROR_10:66:java.lang.String_resourceAsString(java.lang.ClassLoader,java.lang.String): isr != null  =>   isr == null
+ROR_11:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   (n = bis.read( inbuf )) > -1
+ROR_12:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   (n = bis.read( inbuf )) >= -1
+ROR_13:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   (n = bis.read( inbuf )) < -1
+ROR_14:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   (n = bis.read( inbuf )) <= -1
+ROR_15:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   (n = bis.read( inbuf )) == -1
+ROR_16:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   true
+ROR_17:88:void_copy(java.lang.String,java.lang.String): (n = bis.read( inbuf )) != -1  =>   false
+ROR_18:101:void_copy(java.lang.String,java.lang.String): bis != null  =>   bis == null
+ROR_19:107:void_copy(java.lang.String,java.lang.String): bos != null  =>   bos == null

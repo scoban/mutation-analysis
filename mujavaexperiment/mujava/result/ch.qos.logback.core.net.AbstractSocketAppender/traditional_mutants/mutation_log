@@ -1,0 +1,38 @@
+ROR_1:81:void_start(): port <= 0  =>   port > 0
+ROR_2:81:void_start(): port <= 0  =>   port >= 0
+ROR_3:81:void_start(): port <= 0  =>   port < 0
+ROR_4:81:void_start(): port <= 0  =>   port == 0
+ROR_5:81:void_start(): port <= 0  =>   port != 0
+ROR_6:81:void_start(): port <= 0  =>   true
+ROR_7:81:void_start(): port <= 0  =>   false
+ROR_8:85:void_start(): remoteHost == null  =>   remoteHost != null
+ROR_9:89:void_start(): queueSize == 0  =>   queueSize > 0
+ROR_10:89:void_start(): queueSize == 0  =>   queueSize >= 0
+ROR_11:89:void_start(): queueSize == 0  =>   queueSize < 0
+ROR_12:89:void_start(): queueSize == 0  =>   queueSize <= 0
+ROR_13:89:void_start(): queueSize == 0  =>   queueSize != 0
+ROR_14:89:void_start(): queueSize == 0  =>   true
+ROR_15:89:void_start(): queueSize == 0  =>   false
+ROR_16:92:void_start(): queueSize < 0  =>   queueSize > 0
+ROR_17:92:void_start(): queueSize < 0  =>   queueSize >= 0
+ROR_18:92:void_start(): queueSize < 0  =>   queueSize <= 0
+ROR_19:92:void_start(): queueSize < 0  =>   queueSize == 0
+ROR_20:92:void_start(): queueSize < 0  =>   queueSize != 0
+ROR_21:92:void_start(): queueSize < 0  =>   true
+ROR_22:92:void_start(): queueSize < 0  =>   false
+ROR_23:96:void_start(): errorCount == 0  =>   errorCount > 0
+ROR_24:96:void_start(): errorCount == 0  =>   errorCount >= 0
+ROR_25:96:void_start(): errorCount == 0  =>   errorCount < 0
+ROR_26:96:void_start(): errorCount == 0  =>   errorCount <= 0
+ROR_27:96:void_start(): errorCount == 0  =>   errorCount != 0
+ROR_28:96:void_start(): errorCount == 0  =>   true
+ROR_29:96:void_start(): errorCount == 0  =>   false
+ROR_30:104:void_start(): errorCount == 0  =>   errorCount > 0
+ROR_31:104:void_start(): errorCount == 0  =>   errorCount >= 0
+ROR_32:104:void_start(): errorCount == 0  =>   errorCount < 0
+ROR_33:104:void_start(): errorCount == 0  =>   errorCount <= 0
+ROR_34:104:void_start(): errorCount == 0  =>   errorCount != 0
+ROR_35:104:void_start(): errorCount == 0  =>   true
+ROR_36:104:void_start(): errorCount == 0  =>   false
+ROR_37:130:void_append(E): event == null  =>   event != null
+ROR_38:169:boolean_socketConnectionCouldBeEstablished(): (socket = connector.call()) != null  =>   (socket = connector.call()) == null

@@ -1,0 +1,4 @@
+BodyEvent(java.lang.String,org.xml.sax.Locator)
+java.lang.String_getText()
+java.lang.String_toString()
+void_append(java.lang.String)

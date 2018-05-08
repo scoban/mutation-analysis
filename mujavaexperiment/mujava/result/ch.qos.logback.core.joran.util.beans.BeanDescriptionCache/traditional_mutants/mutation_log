@@ -1,0 +1,1 @@
+ROR_1:27:ch.qos.logback.core.joran.util.beans.BeanDescriptionFactory_getBeanDescriptionFactory(): beanDescriptionFactory == null  =>   beanDescriptionFactory != null

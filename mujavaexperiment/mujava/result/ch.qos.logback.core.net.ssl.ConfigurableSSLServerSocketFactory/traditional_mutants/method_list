@@ -1,0 +1,4 @@
+ConfigurableSSLServerSocketFactory(ch.qos.logback.core.net.ssl.SSLParametersConfiguration,javax.net.ssl.SSLServerSocketFactory)
+java.net.ServerSocket_createServerSocket(int,int,java.net.InetAddress)
+java.net.ServerSocket_createServerSocket(int,int)
+java.net.ServerSocket_createServerSocket(int)

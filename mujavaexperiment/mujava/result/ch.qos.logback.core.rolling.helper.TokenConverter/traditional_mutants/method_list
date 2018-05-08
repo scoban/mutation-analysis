@@ -1,0 +1,5 @@
+TokenConverter(int)
+ch.qos.logback.core.rolling.helper.TokenConverter_getNext()
+void_setNext(ch.qos.logback.core.rolling.helper.TokenConverter)
+int_getType()
+void_setType(int)

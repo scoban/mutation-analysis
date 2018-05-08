@@ -1,0 +1,7 @@
+ROR_1:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   i > 0
+ROR_2:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   i < 0
+ROR_3:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   i <= 0
+ROR_4:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   i == 0
+ROR_5:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   i != 0
+ROR_6:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   true
+ROR_7:48:java.lang.String_socketAddressToString(java.net.SocketAddress): i >= 0  =>   false

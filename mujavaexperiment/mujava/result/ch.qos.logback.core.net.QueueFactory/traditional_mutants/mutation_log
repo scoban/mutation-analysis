@@ -1,0 +1,7 @@
+ROR_1:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   capacity > 1
+ROR_2:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   capacity >= 1
+ROR_3:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   capacity <= 1
+ROR_4:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   capacity == 1
+ROR_5:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   capacity != 1
+ROR_6:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   true
+ROR_7:16:java.util.concurrent.LinkedBlockingDeque_newLinkedBlockingDeque(int): capacity < 1  =>   false

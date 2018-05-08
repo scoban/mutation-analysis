@@ -1,0 +1,28 @@
+ROR_1:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   unitStr.length() > 0
+ROR_2:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   unitStr.length() >= 0
+ROR_3:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   unitStr.length() < 0
+ROR_4:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   unitStr.length() <= 0
+ROR_5:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   unitStr.length() != 0
+ROR_6:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   true
+ROR_7:81:ch.qos.logback.core.util.Duration_valueOf(java.lang.String): unitStr.length() == 0  =>   false
+ROR_8:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   millis > SECONDS_COEFFICIENT
+ROR_9:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   millis >= SECONDS_COEFFICIENT
+ROR_10:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   millis <= SECONDS_COEFFICIENT
+ROR_11:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   millis == SECONDS_COEFFICIENT
+ROR_12:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   millis != SECONDS_COEFFICIENT
+ROR_13:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   true
+ROR_14:109:java.lang.String_toString(): millis < SECONDS_COEFFICIENT  =>   false
+ROR_15:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   millis > MINUTES_COEFFICIENT
+ROR_16:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   millis >= MINUTES_COEFFICIENT
+ROR_17:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   millis <= MINUTES_COEFFICIENT
+ROR_18:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   millis == MINUTES_COEFFICIENT
+ROR_19:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   millis != MINUTES_COEFFICIENT
+ROR_20:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   true
+ROR_21:112:java.lang.String_toString(): millis < MINUTES_COEFFICIENT  =>   false
+ROR_22:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   millis > HOURS_COEFFICIENT
+ROR_23:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   millis >= HOURS_COEFFICIENT
+ROR_24:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   millis <= HOURS_COEFFICIENT
+ROR_25:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   millis == HOURS_COEFFICIENT
+ROR_26:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   millis != HOURS_COEFFICIENT
+ROR_27:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   true
+ROR_28:115:java.lang.String_toString(): millis < HOURS_COEFFICIENT  =>   false

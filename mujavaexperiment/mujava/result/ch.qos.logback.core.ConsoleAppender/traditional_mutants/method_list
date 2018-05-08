@@ -1,0 +1,7 @@
+void_setTarget(java.lang.String)
+java.lang.String_getTarget()
+void_targetWarn(java.lang.String)
+void_start()
+java.io.OutputStream_getTargetStreamForWindows(java.io.OutputStream)
+boolean_isWithJansi()
+void_setWithJansi(boolean)

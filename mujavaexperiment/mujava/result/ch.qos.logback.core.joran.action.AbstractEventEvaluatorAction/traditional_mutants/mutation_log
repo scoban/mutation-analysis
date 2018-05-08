@@ -1,0 +1,2 @@
+ROR_1:68:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o != evaluator  =>   o == evaluator
+ROR_2:74:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): evaluatorMap == null  =>   evaluatorMap != null

@@ -1,0 +1,3 @@
+void_add(java.lang.Class,java.lang.String,java.lang.Class)
+java.lang.Class_findDefaultComponentType(java.lang.Class,java.lang.String)
+java.lang.Class_oneShotFind(java.lang.Class,java.lang.String)

@@ -1,0 +1,1 @@
+void_addDefaultNestedComponentRegistryRules(ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry)

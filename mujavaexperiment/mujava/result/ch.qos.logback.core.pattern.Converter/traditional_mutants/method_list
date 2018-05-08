@@ -1,0 +1,4 @@
+java.lang.String_convert(E)
+void_write(java.lang.StringBuilder,E)
+void_setNext(ch.qos.logback.core.pattern.Converter)
+ch.qos.logback.core.pattern.Converter_getNext()

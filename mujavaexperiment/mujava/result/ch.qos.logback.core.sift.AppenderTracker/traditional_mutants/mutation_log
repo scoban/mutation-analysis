@@ -1,0 +1,8 @@
+ROR_1:48:ch.qos.logback.core.Appender_buildComponent(java.lang.String): appender == null  =>   appender != null
+ROR_2:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   nopaWarningCount > CoreConstants.MAX_ERROR_COUNT
+ROR_3:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   nopaWarningCount >= CoreConstants.MAX_ERROR_COUNT
+ROR_4:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   nopaWarningCount <= CoreConstants.MAX_ERROR_COUNT
+ROR_5:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   nopaWarningCount == CoreConstants.MAX_ERROR_COUNT
+ROR_6:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   nopaWarningCount != CoreConstants.MAX_ERROR_COUNT
+ROR_7:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   true
+ROR_8:56:ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String): nopaWarningCount < CoreConstants.MAX_ERROR_COUNT  =>   false

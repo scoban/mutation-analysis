@@ -1,0 +1,4 @@
+void_start()
+java.sql.Connection_getConnection()
+javax.sql.DataSource_getDataSource()
+void_setDataSource(javax.sql.DataSource)

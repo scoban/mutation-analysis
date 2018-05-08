@@ -1,0 +1,9 @@
+ROR_1:22:java.net.URL_urlForResource(java.lang.String): location == null  =>   location != null
+ROR_2:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   path.length() > 0
+ROR_3:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   path.length() >= 0
+ROR_4:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   path.length() < 0
+ROR_5:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   path.length() <= 0
+ROR_6:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   path.length() != 0
+ROR_7:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   true
+ROR_8:34:java.net.URL_urlForResource(java.lang.String): path.length() == 0  =>   false
+ROR_9:42:java.net.URL_urlForResource(java.lang.String): url == null  =>   url != null

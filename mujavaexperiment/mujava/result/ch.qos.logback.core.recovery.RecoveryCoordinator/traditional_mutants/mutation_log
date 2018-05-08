@@ -1,0 +1,21 @@
+ROR_1:38:boolean_isTooSoon(): now > next  =>   now >= next
+ROR_2:38:boolean_isTooSoon(): now > next  =>   now < next
+ROR_3:38:boolean_isTooSoon(): now > next  =>   now <= next
+ROR_4:38:boolean_isTooSoon(): now > next  =>   now == next
+ROR_5:38:boolean_isTooSoon(): now > next  =>   now != next
+ROR_6:38:boolean_isTooSoon(): now > next  =>   true
+ROR_7:38:boolean_isTooSoon(): now > next  =>   false
+ROR_8:53:long_getCurrentTime(): currentTime != UNSET  =>   currentTime > UNSET
+ROR_9:53:long_getCurrentTime(): currentTime != UNSET  =>   currentTime >= UNSET
+ROR_10:53:long_getCurrentTime(): currentTime != UNSET  =>   currentTime < UNSET
+ROR_11:53:long_getCurrentTime(): currentTime != UNSET  =>   currentTime <= UNSET
+ROR_12:53:long_getCurrentTime(): currentTime != UNSET  =>   currentTime == UNSET
+ROR_13:53:long_getCurrentTime(): currentTime != UNSET  =>   true
+ROR_14:53:long_getCurrentTime(): currentTime != UNSET  =>   false
+ROR_15:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   backOffCoefficient > BACKOFF_COEFFICIENT_MAX
+ROR_16:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   backOffCoefficient >= BACKOFF_COEFFICIENT_MAX
+ROR_17:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   backOffCoefficient <= BACKOFF_COEFFICIENT_MAX
+ROR_18:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   backOffCoefficient == BACKOFF_COEFFICIENT_MAX
+ROR_19:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   backOffCoefficient != BACKOFF_COEFFICIENT_MAX
+ROR_20:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   true
+ROR_21:62:long_getBackoffCoefficient(): backOffCoefficient < BACKOFF_COEFFICIENT_MAX  =>   false

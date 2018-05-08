@@ -1,0 +1,8 @@
+ROR_1:23:void_start(): optionList == null  =>   optionList != null
+ROR_2:28:void_start(): numOpts < 2  =>   numOpts > 2
+ROR_3:28:void_start(): numOpts < 2  =>   numOpts >= 2
+ROR_4:28:void_start(): numOpts < 2  =>   numOpts <= 2
+ROR_5:28:void_start(): numOpts < 2  =>   numOpts == 2
+ROR_6:28:void_start(): numOpts < 2  =>   numOpts != 2
+ROR_7:28:void_start(): numOpts < 2  =>   true
+ROR_8:28:void_start(): numOpts < 2  =>   false

@@ -1,0 +1,2 @@
+void_addStatusEvent(ch.qos.logback.core.status.Status)
+java.util.List_getStatusList()

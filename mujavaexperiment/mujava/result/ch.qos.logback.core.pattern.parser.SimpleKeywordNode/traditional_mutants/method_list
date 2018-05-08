@@ -1,0 +1,7 @@
+SimpleKeywordNode(java.lang.Object)
+SimpleKeywordNode(int,java.lang.Object)
+java.util.List_getOptions()
+void_setOptions(java.util.List)
+boolean_equals(java.lang.Object)
+int_hashCode()
+java.lang.String_toString()

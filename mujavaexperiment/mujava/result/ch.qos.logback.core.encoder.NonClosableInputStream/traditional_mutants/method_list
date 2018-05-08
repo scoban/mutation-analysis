@@ -1,0 +1,3 @@
+NonClosableInputStream(java.io.InputStream)
+void_close()
+void_realClose()

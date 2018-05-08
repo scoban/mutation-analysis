@@ -1,0 +1,4 @@
+SizeBasedTriggeringPolicy()
+boolean_isTriggeringEvent(java.io.File,E)
+ch.qos.logback.core.util.FileSize_getMaxFileSize()
+void_setMaxFileSize(ch.qos.logback.core.util.FileSize)

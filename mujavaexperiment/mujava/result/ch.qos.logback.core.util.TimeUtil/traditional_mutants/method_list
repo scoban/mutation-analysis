@@ -1,0 +1,6 @@
+long_computeStartOfNextSecond(long)
+long_computeStartOfNextMinute(long)
+long_computeStartOfNextHour(long)
+long_computeStartOfNextDay(long)
+long_computeStartOfNextWeek(long)
+long_computeStartOfNextMonth(long)

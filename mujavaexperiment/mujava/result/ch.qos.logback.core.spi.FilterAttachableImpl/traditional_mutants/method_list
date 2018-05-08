@@ -1,0 +1,4 @@
+void_addFilter(ch.qos.logback.core.filter.Filter)
+void_clearAllFilters()
+ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E)
+java.util.List_getCopyOfAttachedFiltersList()

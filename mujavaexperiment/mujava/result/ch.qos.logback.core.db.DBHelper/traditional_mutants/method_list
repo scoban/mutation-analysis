@@ -1,0 +1,2 @@
+void_closeConnection(java.sql.Connection)
+void_closeStatement(java.sql.Statement)

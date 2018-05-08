@@ -1,0 +1,35 @@
+ROR_1:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   (invocationCounter++ & mask) > mask
+ROR_2:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   (invocationCounter++ & mask) >= mask
+ROR_3:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   (invocationCounter++ & mask) < mask
+ROR_4:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   (invocationCounter++ & mask) <= mask
+ROR_5:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   (invocationCounter++ & mask) != mask
+ROR_6:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   true
+ROR_7:47:boolean_isTooSoon(long): (invocationCounter++ & mask) == mask  =>   false
+ROR_8:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   currentTime > this.lowerLimitForMaskMatch
+ROR_9:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   currentTime >= this.lowerLimitForMaskMatch
+ROR_10:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   currentTime <= this.lowerLimitForMaskMatch
+ROR_11:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   currentTime == this.lowerLimitForMaskMatch
+ROR_12:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   currentTime != this.lowerLimitForMaskMatch
+ROR_13:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   true
+ROR_14:49:boolean_isTooSoon(long): currentTime < this.lowerLimitForMaskMatch  =>   false
+ROR_15:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   currentTime >= this.upperLimitForNoMaskMatch
+ROR_16:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   currentTime < this.upperLimitForNoMaskMatch
+ROR_17:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   currentTime <= this.upperLimitForNoMaskMatch
+ROR_18:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   currentTime == this.upperLimitForNoMaskMatch
+ROR_19:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   currentTime != this.upperLimitForNoMaskMatch
+ROR_20:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   true
+ROR_21:54:boolean_isTooSoon(long): currentTime > this.upperLimitForNoMaskMatch  =>   false
+ROR_22:76:void_increaseMask(): mask >= MAX_MASK  =>   mask > MAX_MASK
+ROR_23:76:void_increaseMask(): mask >= MAX_MASK  =>   mask < MAX_MASK
+ROR_24:76:void_increaseMask(): mask >= MAX_MASK  =>   mask <= MAX_MASK
+ROR_25:76:void_increaseMask(): mask >= MAX_MASK  =>   mask == MAX_MASK
+ROR_26:76:void_increaseMask(): mask >= MAX_MASK  =>   mask != MAX_MASK
+ROR_27:76:void_increaseMask(): mask >= MAX_MASK  =>   true
+ROR_28:76:void_increaseMask(): mask >= MAX_MASK  =>   false
+ROR_29:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   mask >= MASK_DECREASE_RIGHT_SHIFT_COUNT
+ROR_30:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   mask < MASK_DECREASE_RIGHT_SHIFT_COUNT
+ROR_31:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   mask <= MASK_DECREASE_RIGHT_SHIFT_COUNT
+ROR_32:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   mask == MASK_DECREASE_RIGHT_SHIFT_COUNT
+ROR_33:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   mask != MASK_DECREASE_RIGHT_SHIFT_COUNT
+ROR_34:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   true
+ROR_35:84:void_decreaseMask(): mask > MASK_DECREASE_RIGHT_SHIFT_COUNT  =>   false

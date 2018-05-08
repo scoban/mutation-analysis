@@ -1,0 +1,49 @@
+ROR_1:15:void_writeInt(byte,int,int): j < 4  =>   j > 4
+ROR_2:15:void_writeInt(byte,int,int): j < 4  =>   j >= 4
+ROR_3:15:void_writeInt(byte,int,int): j < 4  =>   j <= 4
+ROR_4:15:void_writeInt(byte,int,int): j < 4  =>   j == 4
+ROR_5:15:void_writeInt(byte,int,int): j < 4  =>   j != 4
+ROR_6:15:void_writeInt(byte,int,int): j < 4  =>   true
+ROR_7:15:void_writeInt(byte,int,int): j < 4  =>   false
+ROR_8:17:void_writeInt(byte,int,int): i > shift  =>   i >= shift
+ROR_9:17:void_writeInt(byte,int,int): i > shift  =>   i < shift
+ROR_10:17:void_writeInt(byte,int,int): i > shift  =>   i <= shift
+ROR_11:17:void_writeInt(byte,int,int): i > shift  =>   i == shift
+ROR_12:17:void_writeInt(byte,int,int): i > shift  =>   i != shift
+ROR_13:17:void_writeInt(byte,int,int): i > shift  =>   true
+ROR_14:17:void_writeInt(byte,int,int): i > shift  =>   false
+ROR_15:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   j > 4
+ROR_16:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   j >= 4
+ROR_17:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   j <= 4
+ROR_18:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   j == 4
+ROR_19:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   j != 4
+ROR_20:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   true
+ROR_21:23:void_writeInt(java.io.ByteArrayOutputStream,int): j < 4  =>   false
+ROR_22:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   i >= shift
+ROR_23:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   i < shift
+ROR_24:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   i <= shift
+ROR_25:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   i == shift
+ROR_26:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   i != shift
+ROR_27:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   true
+ROR_28:25:void_writeInt(java.io.ByteArrayOutputStream,int): i > shift  =>   false
+ROR_29:32:int_readInt(byte,int): j < 4  =>   j > 4
+ROR_30:32:int_readInt(byte,int): j < 4  =>   j >= 4
+ROR_31:32:int_readInt(byte,int): j < 4  =>   j <= 4
+ROR_32:32:int_readInt(byte,int): j < 4  =>   j == 4
+ROR_33:32:int_readInt(byte,int): j < 4  =>   j != 4
+ROR_34:32:int_readInt(byte,int): j < 4  =>   true
+ROR_35:32:int_readInt(byte,int): j < 4  =>   false
+ROR_36:44:java.lang.String_toHexString(byte): s.length() == 1  =>   s.length() > 1
+ROR_37:44:java.lang.String_toHexString(byte): s.length() == 1  =>   s.length() >= 1
+ROR_38:44:java.lang.String_toHexString(byte): s.length() == 1  =>   s.length() < 1
+ROR_39:44:java.lang.String_toHexString(byte): s.length() == 1  =>   s.length() <= 1
+ROR_40:44:java.lang.String_toHexString(byte): s.length() == 1  =>   s.length() != 1
+ROR_41:44:java.lang.String_toHexString(byte): s.length() == 1  =>   true
+ROR_42:44:java.lang.String_toHexString(byte): s.length() == 1  =>   false
+ROR_43:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   i > ba.length
+ROR_44:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   i >= ba.length
+ROR_45:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   i <= ba.length
+ROR_46:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   i == ba.length
+ROR_47:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   i != ba.length
+ROR_48:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   true
+ROR_49:56:byte_hexStringToByteArray(java.lang.String): i < ba.length  =>   false

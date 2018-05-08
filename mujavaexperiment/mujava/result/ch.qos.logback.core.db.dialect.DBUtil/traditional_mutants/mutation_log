@@ -1,0 +1,56 @@
+ROR_1:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   dbName.indexOf( POSTGRES_PART ) > -1
+ROR_2:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   dbName.indexOf( POSTGRES_PART ) >= -1
+ROR_3:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   dbName.indexOf( POSTGRES_PART ) < -1
+ROR_4:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   dbName.indexOf( POSTGRES_PART ) <= -1
+ROR_5:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   dbName.indexOf( POSTGRES_PART ) == -1
+ROR_6:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   true
+ROR_7:36:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( POSTGRES_PART ) != -1  =>   false
+ROR_8:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   dbName.indexOf( MYSQL_PART ) > -1
+ROR_9:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   dbName.indexOf( MYSQL_PART ) >= -1
+ROR_10:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   dbName.indexOf( MYSQL_PART ) < -1
+ROR_11:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   dbName.indexOf( MYSQL_PART ) <= -1
+ROR_12:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   dbName.indexOf( MYSQL_PART ) == -1
+ROR_13:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   true
+ROR_14:39:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MYSQL_PART ) != -1  =>   false
+ROR_15:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   dbName.indexOf( ORACLE_PART ) > -1
+ROR_16:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   dbName.indexOf( ORACLE_PART ) >= -1
+ROR_17:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   dbName.indexOf( ORACLE_PART ) < -1
+ROR_18:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   dbName.indexOf( ORACLE_PART ) <= -1
+ROR_19:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   dbName.indexOf( ORACLE_PART ) == -1
+ROR_20:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   true
+ROR_21:42:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( ORACLE_PART ) != -1  =>   false
+ROR_22:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   dbName.indexOf( MSSQL_PART ) > -1
+ROR_23:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   dbName.indexOf( MSSQL_PART ) >= -1
+ROR_24:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   dbName.indexOf( MSSQL_PART ) < -1
+ROR_25:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   dbName.indexOf( MSSQL_PART ) <= -1
+ROR_26:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   dbName.indexOf( MSSQL_PART ) == -1
+ROR_27:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   true
+ROR_28:45:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( MSSQL_PART ) != -1  =>   false
+ROR_29:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   dbName.indexOf( HSQL_PART ) > -1
+ROR_30:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   dbName.indexOf( HSQL_PART ) >= -1
+ROR_31:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   dbName.indexOf( HSQL_PART ) < -1
+ROR_32:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   dbName.indexOf( HSQL_PART ) <= -1
+ROR_33:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   dbName.indexOf( HSQL_PART ) == -1
+ROR_34:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   true
+ROR_35:48:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( HSQL_PART ) != -1  =>   false
+ROR_36:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   dbName.indexOf( H2_PART ) > -1
+ROR_37:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   dbName.indexOf( H2_PART ) >= -1
+ROR_38:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   dbName.indexOf( H2_PART ) < -1
+ROR_39:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   dbName.indexOf( H2_PART ) <= -1
+ROR_40:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   dbName.indexOf( H2_PART ) == -1
+ROR_41:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   true
+ROR_42:51:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( H2_PART ) != -1  =>   false
+ROR_43:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   dbName.indexOf( SYBASE_SQLANY_PART ) > -1
+ROR_44:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   dbName.indexOf( SYBASE_SQLANY_PART ) >= -1
+ROR_45:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   dbName.indexOf( SYBASE_SQLANY_PART ) < -1
+ROR_46:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   dbName.indexOf( SYBASE_SQLANY_PART ) <= -1
+ROR_47:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   dbName.indexOf( SYBASE_SQLANY_PART ) == -1
+ROR_48:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   true
+ROR_49:54:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SYBASE_SQLANY_PART ) != -1  =>   false
+ROR_50:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   dbName.indexOf( SQLITE_PART ) > -1
+ROR_51:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   dbName.indexOf( SQLITE_PART ) >= -1
+ROR_52:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   dbName.indexOf( SQLITE_PART ) < -1
+ROR_53:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   dbName.indexOf( SQLITE_PART ) <= -1
+ROR_54:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   dbName.indexOf( SQLITE_PART ) == -1
+ROR_55:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   true
+ROR_56:57:ch.qos.logback.core.db.dialect.SQLDialectCode_discoverSQLDialect(java.sql.DatabaseMetaData): dbName.indexOf( SQLITE_PART ) != -1  =>   false

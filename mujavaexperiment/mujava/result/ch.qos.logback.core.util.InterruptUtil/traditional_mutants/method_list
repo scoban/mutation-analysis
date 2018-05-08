@@ -1,0 +1,3 @@
+InterruptUtil(ch.qos.logback.core.Context)
+void_maskInterruptFlag()
+void_unmaskInterruptFlag()

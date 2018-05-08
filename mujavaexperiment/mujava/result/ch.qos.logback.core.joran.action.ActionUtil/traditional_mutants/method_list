@@ -1,0 +1,3 @@
+ch.qos.logback.core.joran.action.ActionUtil.Scope_stringToScope(java.lang.String)
+void_setProperty(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,java.lang.String,ch.qos.logback.core.joran.action.ActionUtil.Scope)
+void_setProperties(ch.qos.logback.core.joran.spi.InterpretationContext,java.util.Properties,ch.qos.logback.core.joran.action.ActionUtil.Scope)

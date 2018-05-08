@@ -1,0 +1,1 @@
+ROR_1:21:void_setNext(ch.qos.logback.core.pattern.Converter): this.next != null  =>   this.next == null

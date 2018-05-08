@@ -1,0 +1,1 @@
+ROR_1:42:ch.qos.logback.core.net.ssl.SSLConfiguration_getSsl(): ssl == null  =>   ssl != null

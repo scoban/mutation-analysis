@@ -1,0 +1,3 @@
+StaxEvent(java.lang.String,javax.xml.stream.Location)
+java.lang.String_getName()
+javax.xml.stream.Location_getLocation()

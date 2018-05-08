@@ -1,0 +1,16 @@
+ROR_1:43:void_setMainURL(java.net.URL): mainURL != null  =>   mainURL == null
+ROR_2:51:void_addAsFileToWatch(java.net.URL): file != null  =>   file == null
+ROR_3:75:boolean_changeDetected(): i < len  =>   i > len
+ROR_4:75:boolean_changeDetected(): i < len  =>   i >= len
+ROR_5:75:boolean_changeDetected(): i < len  =>   i <= len
+ROR_6:75:boolean_changeDetected(): i < len  =>   i == len
+ROR_7:75:boolean_changeDetected(): i < len  =>   i != len
+ROR_8:75:boolean_changeDetected(): i < len  =>   true
+ROR_9:75:boolean_changeDetected(): i < len  =>   false
+ROR_10:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   lastModified > file.lastModified()
+ROR_11:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   lastModified >= file.lastModified()
+ROR_12:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   lastModified < file.lastModified()
+ROR_13:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   lastModified <= file.lastModified()
+ROR_14:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   lastModified == file.lastModified()
+ROR_15:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   true
+ROR_16:78:boolean_changeDetected(): lastModified != file.lastModified()  =>   false

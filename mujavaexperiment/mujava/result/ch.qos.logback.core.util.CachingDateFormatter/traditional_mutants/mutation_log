@@ -1,0 +1,7 @@
+ROR_1:30:java.lang.String_format(long): now != lastTimestamp  =>   now > lastTimestamp
+ROR_2:30:java.lang.String_format(long): now != lastTimestamp  =>   now >= lastTimestamp
+ROR_3:30:java.lang.String_format(long): now != lastTimestamp  =>   now < lastTimestamp
+ROR_4:30:java.lang.String_format(long): now != lastTimestamp  =>   now <= lastTimestamp
+ROR_5:30:java.lang.String_format(long): now != lastTimestamp  =>   now == lastTimestamp
+ROR_6:30:java.lang.String_format(long): now != lastTimestamp  =>   true
+ROR_7:30:java.lang.String_format(long): now != lastTimestamp  =>   false

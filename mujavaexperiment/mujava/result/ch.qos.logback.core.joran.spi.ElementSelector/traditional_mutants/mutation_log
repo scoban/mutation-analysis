@@ -1,0 +1,95 @@
+ROR_1:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   path.size() > size()
+ROR_2:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   path.size() >= size()
+ROR_3:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   path.size() < size()
+ROR_4:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   path.size() <= size()
+ROR_5:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   path.size() == size()
+ROR_6:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   true
+ROR_7:30:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): path.size() != size()  =>   false
+ROR_8:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   i > len
+ROR_9:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   i >= len
+ROR_10:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   i <= len
+ROR_11:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   i == len
+ROR_12:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   i != len
+ROR_13:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   true
+ROR_14:34:boolean_fullPathMatch(ch.qos.logback.core.joran.spi.ElementPath): i < len  =>   false
+ROR_15:44:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): p == null  =>   p != null
+ROR_16:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize > 0
+ROR_17:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize >= 0
+ROR_18:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize < 0
+ROR_19:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize <= 0
+ROR_20:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize != 0
+ROR_21:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   true
+ROR_22:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   false
+ROR_23:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize > 0
+ROR_24:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize >= 0
+ROR_25:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize < 0
+ROR_26:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize <= 0
+ROR_27:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize != 0
+ROR_28:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   true
+ROR_29:49:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   false
+ROR_30:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize > rSize
+ROR_31:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize >= rSize
+ROR_32:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize < rSize
+ROR_33:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize == rSize
+ROR_34:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize != rSize
+ROR_35:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   true
+ROR_36:52:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   false
+ROR_37:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   i > minLen
+ROR_38:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   i >= minLen
+ROR_39:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   i < minLen
+ROR_40:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   i == minLen
+ROR_41:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   i != minLen
+ROR_42:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   true
+ROR_43:54:int_getTailMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i <= minLen  =>   false
+ROR_44:68:boolean_isContainedIn(ch.qos.logback.core.joran.spi.ElementPath): p == null  =>   p != null
+ROR_45:76:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): p == null  =>   p != null
+ROR_46:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize > 0
+ROR_47:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize >= 0
+ROR_48:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize < 0
+ROR_49:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize <= 0
+ROR_50:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   lSize != 0
+ROR_51:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   true
+ROR_52:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize == 0  =>   false
+ROR_53:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize > 0
+ROR_54:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize >= 0
+ROR_55:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize < 0
+ROR_56:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize <= 0
+ROR_57:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   rSize != 0
+ROR_58:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   true
+ROR_59:81:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): rSize == 0  =>   false
+ROR_60:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize > rSize
+ROR_61:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize >= rSize
+ROR_62:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize < rSize
+ROR_63:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize == rSize
+ROR_64:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   lSize != rSize
+ROR_65:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   true
+ROR_66:84:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): lSize <= rSize  =>   false
+ROR_67:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   i > minLen
+ROR_68:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   i >= minLen
+ROR_69:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   i <= minLen
+ROR_70:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   i == minLen
+ROR_71:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   i != minLen
+ROR_72:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   true
+ROR_73:86:int_getPrefixMatchLength(ch.qos.logback.core.joran.spi.ElementPath): i < minLen  =>   false
+ROR_74:105:boolean_equals(java.lang.Object): o == null  =>   o != null
+ROR_75:109:boolean_equals(java.lang.Object): r.size() != size()  =>   r.size() > size()
+ROR_76:109:boolean_equals(java.lang.Object): r.size() != size()  =>   r.size() >= size()
+ROR_77:109:boolean_equals(java.lang.Object): r.size() != size()  =>   r.size() < size()
+ROR_78:109:boolean_equals(java.lang.Object): r.size() != size()  =>   r.size() <= size()
+ROR_79:109:boolean_equals(java.lang.Object): r.size() != size()  =>   r.size() == size()
+ROR_80:109:boolean_equals(java.lang.Object): r.size() != size()  =>   true
+ROR_81:109:boolean_equals(java.lang.Object): r.size() != size()  =>   false
+ROR_82:113:boolean_equals(java.lang.Object): i < len  =>   i > len
+ROR_83:113:boolean_equals(java.lang.Object): i < len  =>   i >= len
+ROR_84:113:boolean_equals(java.lang.Object): i < len  =>   i <= len
+ROR_85:113:boolean_equals(java.lang.Object): i < len  =>   i == len
+ROR_86:113:boolean_equals(java.lang.Object): i < len  =>   i != len
+ROR_87:113:boolean_equals(java.lang.Object): i < len  =>   true
+ROR_88:113:boolean_equals(java.lang.Object): i < len  =>   false
+ROR_89:125:int_hashCode(): i < len  =>   i > len
+ROR_90:125:int_hashCode(): i < len  =>   i >= len
+ROR_91:125:int_hashCode(): i < len  =>   i <= len
+ROR_92:125:int_hashCode(): i < len  =>   i == len
+ROR_93:125:int_hashCode(): i < len  =>   i != len
+ROR_94:125:int_hashCode(): i < len  =>   true
+ROR_95:125:int_hashCode(): i < len  =>   false

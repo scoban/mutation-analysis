@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mujavanexperiment" basedir=".">
+	<description>
+	</description>
+
+	<property name="project.dir" value="../../loqback-mutationtesting/logback-core">
+	</property>
+
+	<property name="mujava.dir" value="mujava" />
+	<property name="mujava.lib.dir" value="lib" />
+	<property name="mujava.build.dir" value="${mujava.dir}" />
+
+	<!--
+		Project source files in logback-core project
+		-->
+	<property name="main.src.dir" value="${project.dir}/src/main/java" />
+	<property name="test.src.dir" value="${project.dir}/src/test/java" />
+	<property name="test.resource.dir" value="${project.dir}/src/test/resources" />
+	<!--
+		mujava file path
+		-->
+	<property name="src.build.dir" value="${mujava.build.dir}" />
+	<property name="main.build.dir" value="${mujava.build.dir}" />
+	<property name="test.build.dir" value="${mujava.build.dir}" />
+
+	<path id="classpath.base">
+		<fileset dir="${mujava.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${basedir}/libs">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<path id="classpath.test">
+		<pathelement location="${test.build.dir}" />
+		<path refid="classpath.base" />
+	</path>
+
+	<target name="clean">
+		<delete dir="${basedir}/mujava">
+		</delete>
+		<echo message="clean done" />
+	</target>
+
+	<target name="init" depends="clean">
+		<mkdir dir="${mujava.build.dir}" />
+		<mkdir dir="${mujava.lib.dir}" />
+		<mkdir dir="${basedir}/mujava"/>
+		<mkdir dir="${basedir}/mujava/src"/>
+		<mkdir dir="${basedir}/mujava/testset"/>
+		<mkdir dir="${basedir}/mujava/classes"/>
+		<mkdir dir="${basedir}/mujava/result"/>
+	</target>
+
+	<target name="copyLibs" depends="init">
+		<echo message="copying jar files">
+		</echo>
+		<copy todir="${basedir}/lib">
+			<fileset dir="${project.dir}/lib" includes="**" />
+		</copy>
+
+		<echo message="copying source files">
+		</echo>
+		<copy todir="${basedir}/mujava/src">
+			<fileset dir="${project.dir}/src/main/java" includes="**" />
+		</copy>
+
+		<copy todir="${basedir}/mujava/src/test">
+			<fileset dir="${project.dir}/src/test">
+				<exclude name="**/java/**" />
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="compile" depends="copyLibs">
+		<echo>Java/JVM version: ${ant.java.version}</echo>
+		<echo>Java/JVM detail version: ${java.version}</echo>
+		<echo message="compiling source files in ${main.src.dir}">
+		</echo>
+		<javac srcdir="${main.src.dir}" destdir="${basedir}/mujava/classes" debug="yes" fork="yes" includeantruntime="true">
+			<classpath refid="classpath.base" />
+			<exclude name="module-info.java" />
+			<compilerarg value="-Xlint:unchecked" />
+			<compilerarg value="-Xlint:deprecation" />
+		</javac>
+	</target>
+
+	<target name="test-compile" depends="compile">
+		<echo message="Test compiling" />
+		<javac srcdir="${test.src.dir}" destdir="${basedir}/mujava/classes" includeantruntime="true">
+			<classpath refid="classpath.test" />
+		</javac>
+		<echo message="Test resources copying" />
+		<copy todir="${basedir}/mujava/testset">
+			<fileset dir="${test.src.dir}" includes="**" />
+		</copy>
+	</target>
+	
+</project>
+
