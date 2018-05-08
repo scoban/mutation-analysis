@@ -46,7 +46,8 @@
 
 ## Experiment
 
-        In this section, we will perform experiments for four different mutation testing tools. We will show performance of each tools and compare them. These tools are used in open source logging framework called logback (https://github.com/qos-ch/logback). This framework is available open source and there are quite enough number of test case written manually by author. Therefore, It is an ideal candiate to perform mutation testing. 
+        In this section, we will perform experiments for four different mutation testing tools. We will show performance 
+of each tools and compare them. These tools are used in open source logging framework called logback (https://github.com/qos-ch/logback). This framework is available open source and there are quite enough number of test case written manually by author. Therefore, It is an ideal candiate to perform mutation testing. 
     
     There are steps to run mutation analysis for each mutation tools. Some of them has own compiler, own set of tools to
     generate mutants successfully. 
