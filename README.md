@@ -32,17 +32,39 @@ integrate in SDLC, we will try to find a way to execute test units using Apache 
 The reader should have an understanding of unit testing development.
 The reader also have a background of Java Programming Language, JUnit Framework.
 
+### Selective Mutation
+Mutation testing is expensive operation in terms of time and memory. The technique outputs many mutant version of
+original component and requires them to be killed.  
+
 ## Tools
 
-- PIT
-What is PIT? Who created ? 
-PIT Mutation Analysis tool is a modern, easy to integrate into Software Development Lifecycle.
+The tools which are used to perform experiments are MuJava, Judy, Major and PIT. These tools are freely available
+and used frequently. In this study, we will focus on these tools.
 
-- Mujava
+### MuJava
 
-- Major
+Mujava (https://cs.gmu.edu/~offutt/mujava/) is one of the oldest mutation testing tools for Java language. This tool
+are also the most used in most of the research studies. MuJava provides both method level and class level mutation 
+analysis. It also supports that the OOP features. 
 
-- Judy
+The process of mutation generation is as follows. Faults are injected into source files and result of injecting
+creates a mutant that is the faulty version of original components.
+
+### Major ( Mutation Analysis in a Java cOmpileR) 
+Major is also a tool that is mostly used in studies. Major tool is integrated into the Java Compiler, therefore, it 
+can be used in any Java-based environments. The process of generating mutant is that it manipulates the abstract
+syntax tree of component which is going to be tested. It is also known as conditional mutation analysis tools.
+
+![alt text](images/major-ast.png)
+
+MAJOR has a DSL support for specifying and adapting mutation operators. This makes Major extensible
+for mutation operators. 
+
+### Judy
+
+
+### PIT
+
 
 ## Experiment
 
