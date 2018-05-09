@@ -1,4 +1,10 @@
-# Mutation Analysis Experiments
+# Mutation Analysis 
+
+Mutation testing is a fault based techniqe which helps to evaluate the performance of test suites. The effectiveness 
+of test suites are measured by how many faults are detected. 
+
+A mutated program is a replication of original program, which has a seeded fault. These faults are injected into
+components on purpose and let the test suites detects those defects.
 
 ## Introduction
 
@@ -60,6 +66,28 @@ for mutation operators.
 
 ### Judy
 
+Judy is an implementation of the FAMTA Light approach developed in Java with AspectJ extensions. 
+
+pointcut and advice Aspect-Oriented Programming (AOP) mechanism
+
+This approach takes
+advantage of the pointcut and advice mechanism, which allows the definition of
+special points in the program flow (during method execution, constructor invo-
+cation and class field value change) – called pointcuts – and related methods –
+called advices – that can be invoked before, after or instead of a defined point-
+cut. The main strength of the mechanism is related to its support for regular
+expressions, what enables the definition of similar behaviour for specific types
+of event. This introduces very effective solutions to some commonly known pro-
+gramming issues, called “cross-cutting concerns”, such as logging or transaction
+management
+
+![alt text](images/judy-class-A.png)
+
+![alt text](images/judy-class-A-mutated.png)
+
+![alt text](images/judy-class-A-mutated-pointcut.png)
+
+![alt text](images/judy-famta-algorithm.png)
 
 ### PIT
 
@@ -79,5 +107,12 @@ to generate mutants successfully.
     We will firstly experiment using PIT testing tools. 
 
 ## Comparison of Tools    
+
+number of mutants generated (Total number of mutants)
+number of killed mutants
+type of mutation generation technique : byte code , source code
+mutation generation speeds
+
+
 
 ## Conclusion
