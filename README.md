@@ -21,8 +21,6 @@ integrate in SDLC, we will try to find a way to execute test units using Apache 
 - A Comparison of Mutation Analysis Tools for Java
 - A Study and Review on the Development of Mutation Testing Tools for Java and Aspect-J Programs
 - Experimental Comparison of Automated Mutation Testing Tools for Java
-- How effective are mutation testing tools? An empirical analysis of Java mutation testing tools with manual 
-  analysis and real faults
 - How Effective Mutation Testing Tools Are? An Empirical Analysis of Java Mutation Testing Tools with Manual 
   Analysis and Real Faults
 
