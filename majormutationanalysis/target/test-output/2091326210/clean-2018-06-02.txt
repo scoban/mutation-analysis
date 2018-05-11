@@ -1,8 +1,0 @@
-HelloSat Jun 02 00:04:21 EEST 2018                                    1073
-HelloSat Jun 02 00:11:01 EEST 2018                                    1074
-HelloSat Jun 02 00:17:41 EEST 2018                                    1075
-HelloSat Jun 02 00:24:21 EEST 2018                                    1076
-HelloSat Jun 02 00:31:01 EEST 2018                                    1077
-HelloSat Jun 02 00:37:41 EEST 2018                                    1078
-HelloSat Jun 02 00:44:21 EEST 2018                                    1079
-HelloSat Jun 02 00:51:01 EEST 2018                                    1080

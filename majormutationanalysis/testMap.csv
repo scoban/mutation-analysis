@@ -1,2 +1,2 @@
 TestNo,TestName
-1,ch.qos.logback.core.util.DatePatternToRegexTest
+1,ch.qos.logback.core.appender.ConsoleAppenderTest

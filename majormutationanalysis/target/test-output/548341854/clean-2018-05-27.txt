@@ -1,3 +1,0 @@
-HelloSun May 27 23:43:42 EEST 2018                                       0
-HelloSun May 27 23:50:22 EEST 2018                                       1
-HelloSun May 27 23:57:02 EEST 2018                                       2

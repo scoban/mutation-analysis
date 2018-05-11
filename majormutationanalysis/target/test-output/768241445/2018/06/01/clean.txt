@@ -1,9 +1,0 @@
-HelloFri Jun 01 00:04:21 EEST 2018                                    5176
-HelloFri Jun 01 00:11:01 EEST 2018                                    5177
-HelloFri Jun 01 00:17:41 EEST 2018                                    5178
-HelloFri Jun 01 00:24:21 EEST 2018                                    5179
-HelloFri Jun 01 00:31:01 EEST 2018                                    5180
-HelloFri Jun 01 00:37:41 EEST 2018                                    5181
-HelloFri Jun 01 00:44:21 EEST 2018                                    5182
-HelloFri Jun 01 00:51:01 EEST 2018                                    5183
-HelloFri Jun 01 00:57:41 EEST 2018                                    5184

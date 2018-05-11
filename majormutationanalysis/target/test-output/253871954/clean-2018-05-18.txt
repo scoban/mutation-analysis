@@ -1,9 +1,0 @@
-HelloFri May 18 00:06:14 EEST 2018                                    2152
-HelloFri May 18 00:12:54 EEST 2018                                    2153
-HelloFri May 18 00:19:34 EEST 2018                                    2154
-HelloFri May 18 00:26:14 EEST 2018                                    2155
-HelloFri May 18 00:32:54 EEST 2018                                    2156
-HelloFri May 18 00:39:34 EEST 2018                                    2157
-HelloFri May 18 00:46:14 EEST 2018                                    2158
-HelloFri May 18 00:52:54 EEST 2018                                    2159
-HelloFri May 18 00:59:34 EEST 2018                                    2160

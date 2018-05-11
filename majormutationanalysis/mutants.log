@@ -6108,8 +6108,3 @@
 6108:STD:<CALL>:<NO-OP>:ch.qos.logback.core.util.TimeUtil@computeStartOfNextMonth(long):80:cal.set(Calendar.SECOND, 0) |==> <NO-OP>
 6109:STD:<CALL>:<NO-OP>:ch.qos.logback.core.util.TimeUtil@computeStartOfNextMonth(long):81:cal.set(Calendar.MILLISECOND, 0) |==> <NO-OP>
 6110:STD:<CALL>:<NO-OP>:ch.qos.logback.core.util.TimeUtil@computeStartOfNextMonth(long):82:cal.add(Calendar.MONTH, 1) |==> <NO-OP>
-6111:ROR:<=(int,int):<(int,int):major.mutation.Config@COVERED(int,int):33:i <= to |==> i < to
-6112:ROR:<=(int,int):==(int,int):major.mutation.Config@COVERED(int,int):33:i <= to |==> i == to
-6113:ROR:<=(int,int):TRUE(int,int):major.mutation.Config@COVERED(int,int):33:i <= to |==> true
-6114:STD:<CALL>:<NO-OP>:major.mutation.Config@COVERED(int,int):34:covSet.add(i) |==> <NO-OP>
-6115:STD:<CALL>:<NO-OP>:major.mutation.Config@reset():48:covSet.clear() |==> <NO-OP>

@@ -1,9 +1,0 @@
-HelloWed May 23 00:06:16 EEST 2018                                    3232
-HelloWed May 23 00:12:56 EEST 2018                                    3233
-HelloWed May 23 00:19:36 EEST 2018                                    3234
-HelloWed May 23 00:26:16 EEST 2018                                    3235
-HelloWed May 23 00:32:56 EEST 2018                                    3236
-HelloWed May 23 00:39:36 EEST 2018                                    3237
-HelloWed May 23 00:46:16 EEST 2018                                    3238
-HelloWed May 23 00:52:56 EEST 2018                                    3239
-HelloWed May 23 00:59:36 EEST 2018                                    3240

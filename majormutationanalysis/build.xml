@@ -8,10 +8,8 @@
 
 	<property name="compiler.dir" value="major/bin/javac" />
 
-	<property name="major.dir" value="major" />
-	<property name="major.lib.dir" value="major/lib" />
-	<property name="lib.dir" value="lib" />
-	<property name="build.dir" value="majorexperiment" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="build.dir" value="${basedir}/majorexperiment" />
 
 	<!--
 	Project source files in logback-core project
@@ -22,10 +20,9 @@
 	<!--
 	Major file path
 	-->
-	<property name="src.build.dir" value="${basedir}/majorexperiment/src" />
-	<property name="main.build.dir" value="${basedir}/majorexperiment" />
-	<property name="test.build.dir" value="${basedir}/majorexperiment" />
-	<property name="mutOp" value="-XMutator=:ROR" />
+
+	<echo>Java/JVM version: ${ant.java.version}</echo>
+	<echo>Java/JVM detail version: ${java.version}</echo>
 
 	<path id="classpath.base">
 		<fileset dir="${lib.dir}">
@@ -40,17 +37,28 @@
 
 	<target name="clean">
 		<delete quiet="true">
-			<fileset dir="${build.dir}" />
+			<fileset dir="${build.dir}">
+				<include name="**/*" />
+			</fileset>
+		</delete>
+		<delete>
+			<fileset dir="${basedir}" includes="*.csv" />
+			<fileset dir="${basedir}" includes="*.log" />
 		</delete>
 		<delete quiet="true">
-			<fileset dir="${basedir}/src" />
+			<fileset dir="src">
+				<include name="**/*" />
+			</fileset>
+		</delete>
+		<delete quiet="true">
+			<fileset dir="test">
+				<include name="**/*" />
+			</fileset>
 		</delete>
 		<echo message="clean done" />
 	</target>
 
 	<target name="init" depends="clean">
-		<mkdir dir="${build.dir}" />
-		<mkdir dir="${lib.dir}" />
 	</target>
 
 	<target name="copyLibs" depends="init">
@@ -62,55 +70,49 @@
 			<fileset dir="${project.dir}/src/main/java" includes="**" />
 		</copy>
 
-		<copy todir="${basedir}/src">
+		<copy todir="${basedir}/test">
 			<fileset dir="${project.dir}/src/test/java" includes="**" />
 		</copy>
-
-		<copy todir="${basedir}/src/test">
+		<echo message="Test resources copying" />
+		<copy todir="test">
 			<fileset dir="${project.dir}/src/test">
 				<exclude name="**/java/**" />
 			</fileset>
 		</copy>
-
 	</target>
 
 	<target name="compile" depends="copyLibs">
-		<mkdir dir="${main.build.dir}" />
 		<echo message="compiling source files in ${main.src.dir}">
 		</echo>
-		<javac srcdir="${main.src.dir}" destdir="${main.build.dir}" debug="yes" fork="yes" executable="${compiler.dir}" includeantruntime="true">
+		<javac srcdir="src" destdir="${build.dir}" debug="yes" fork="yes" executable="${compiler.dir}">
 			<classpath refid="classpath.base" />
 			<exclude name="module-info.java" />
 			<compilerarg value="-XMutator=${basedir}/major/mml/all.mml.bin" />
-			<compilerarg value="-Xlint:unchecked" />
-			<compilerarg value="-Xlint:deprecation" />
 		</javac>
 	</target>
 
 	<target name="test-compile" depends="compile">
 		<echo message="Test compiling" />
-		<javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeantruntime="true">
+		<javac srcdir="test" destdir="${build.dir}" debug="true" executable="${compiler.dir}">
 			<classpath refid="classpath.test" />
 		</javac>
-		<echo message="Test resources copying" />
-		<copy todir="${test.build.dir}">
-			<fileset dir="${test.resource.dir}" includes="**" />
+		<copy todir="${build.dir}">
+			<fileset dir="test">
+				<exclude name="**/java/**" />
+			</fileset>
 		</copy>
 	</target>
 
-	<target name="test" description="Run all unit test cases">
-		<echo message="executing test units. file path ${src.build.dir}" />
+	<target name="test" description="Run all unit test cases" >
 		<junit printsummary="on" haltonfailure="no" showoutput="true">
 			<classpath>
 				<path refid="classpath.test" />
-				<pathelement location="${test.build.dir}" />
+				<pathelement location="${build.dir}" />
 			</classpath>
 			<formatter type="brief" usefile="false" />
 			<batchtest>
-				<fileset dir="${basedir}/src" includes="**/*Test.java">
-					<exclude name="**/AllCoreTest*" />
-					<exclude name="**/PackageTest*" />
-					<exclude name="**/Abstract*Test*" />
+				<fileset dir="${basedir}/test">
+					<include name="**/ConsoleAppenderTest.java" />
 				</fileset>
 			</batchtest>
 		</junit>
@@ -118,15 +120,17 @@
 
 	<target name="mutation.test" description="Run mutation analysis for all unit test cases" depends="test">
 		<echo message="Running mutation analysis ..." />
+		<echo>Java/JVM version: ${ant.java.version}</echo>
+		<echo>Java/JVM detail version: ${java.version}</echo>
 		<junit printsummary="true" showoutput="true" mutationAnalysis="true" resultFile="results.csv" killDetailsFile="killed.csv">
-			<classpath refid="classpath.test" />
+			<classpath>
+				<path refid="classpath.test" />
+				<pathelement location="${build.dir}" />
+			</classpath>
 			<formatter type="brief" usefile="false" />
 			<batchtest fork="false">
-				<fileset dir="${basedir}/src">
-					<exclude name="**/AllCoreTest*" />
-					<exclude name="**/PackageTest*" />
-					<exclude name="**/Abstract*Test*" />
-					<include name="**/*DatePatternToRegexTest.java" />
+				<fileset dir="${basedir}/test">
+					<include name="**/ConsoleAppenderTest.java" />
 				</fileset>
 			</batchtest>
 		</junit>

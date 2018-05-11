@@ -1,9 +1,0 @@
-HelloSat Jul 07 00:04:19 EEST 2018                                   12952
-HelloSat Jul 07 00:10:59 EEST 2018                                   12953
-HelloSat Jul 07 00:17:39 EEST 2018                                   12954
-HelloSat Jul 07 00:24:19 EEST 2018                                   12955
-HelloSat Jul 07 00:30:59 EEST 2018                                   12956
-HelloSat Jul 07 00:37:39 EEST 2018                                   12957
-HelloSat Jul 07 00:44:19 EEST 2018                                   12958
-HelloSat Jul 07 00:50:59 EEST 2018                                   12959
-HelloSat Jul 07 00:57:39 EEST 2018                                   12960
