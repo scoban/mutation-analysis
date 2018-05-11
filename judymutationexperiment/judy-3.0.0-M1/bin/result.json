@@ -1,0 +1,313 @@
+{
+  "summary": {
+    "date": "May 9, 2018",
+    "time": "10:47:29 PM",
+    "duration": 2,
+    "testCount": 1,
+    "evaluatedClassesCount": 1,
+    "mutatedClassesCount": 1,
+    "score": 0.0,
+    "allKilledMutantsCount": 46,
+    "allMutantsCount": 51,
+    "testsRuns": 167,
+    "testsDuration": 1830
+  },
+  "operators": [
+    {
+      "name": "AIR_Sub",
+      "description": "replace basic binary arithmetic instructions with SUB"
+    },
+    {
+      "name": "PPD",
+      "description": "change parameter type to super class of original type"
+    },
+    {
+      "name": "JID",
+      "description": "delete field initialization"
+    },
+    {
+      "name": "LIR_Xor",
+      "description": "replace binary logical instructions with XOR"
+    },
+    {
+      "name": "PLD",
+      "description": "change local variable type to super class of original type"
+    },
+    {
+      "name": "JIR_Ifge",
+      "description": "replace jump instructions with IFGE (IF_ICMPGE)"
+    },
+    {
+      "name": "ORV",
+      "description": "Reverses the order of collections with ordering based on comparator"
+    },
+    {
+      "name": "ISI",
+      "description": "insert super keyword before fields and methods calls"
+    },
+    {
+      "name": "PNC",
+      "description": "call new with child class type"
+    },
+    {
+      "name": "AIR_Mul",
+      "description": "replace basic binary arithmetic instructions with MUL"
+    },
+    {
+      "name": "FBD",
+      "description": "break statements removal from switch"
+    },
+    {
+      "name": "AIR_Div",
+      "description": "replace basic binary arithmetic instructions with DIV"
+    },
+    {
+      "name": "JTD",
+      "description": "delete this keyword when field has the same name as parameter"
+    },
+    {
+      "name": "CCE",
+      "description": "Clears the collection"
+    },
+    {
+      "name": "SIR_Shl",
+      "description": "replace shift instructions with SHL"
+    },
+    {
+      "name": "LSF",
+      "description": "Shuffles the list"
+    },
+    {
+      "name": "CCD",
+      "description": "compareTo method distortion"
+    },
+    {
+      "name": "SCR",
+      "description": "stream closing removal"
+    },
+    {
+      "name": "JIR_Ifeq",
+      "description": "replace jump instructions with IFEQ (IF_ICMPEQ, IF_ACMPEQ)"
+    },
+    {
+      "name": "EAM",
+      "description": "change an accessor method name to other compatible accessor method names"
+    },
+    {
+      "name": "LIR_Or",
+      "description": "replace binary logical instructions with OR"
+    },
+    {
+      "name": "LIR_RightOperand",
+      "description": "replace binary logical instructions with their right operands"
+    },
+    {
+      "name": "SIR_Shr",
+      "description": "replace shift instructions with SHR"
+    },
+    {
+      "name": "REV",
+      "description": "Reverses the list"
+    },
+    {
+      "name": "JDC",
+      "description": "delete the implemented default constructor"
+    },
+    {
+      "name": "JIR_Ifle",
+      "description": "replace jump instructions with IFLE (IF_ICMPLE)"
+    },
+    {
+      "name": "ISD",
+      "description": "delete super keyword before fields and methods calls"
+    },
+    {
+      "name": "CLR",
+      "description": "change list to set that does not allow to duplicated elements"
+    },
+    {
+      "name": "AIR_Add",
+      "description": "replace basic binary arithmetic instructions with ADD"
+    },
+    {
+      "name": "OMD",
+      "description": "delete overloading method declarations, one at a time"
+    },
+    {
+      "name": "EGE",
+      "description": "generalization of caught errors"
+    },
+    {
+      "name": "SIR_Ushr",
+      "description": "replace shift instructions with USHR"
+    },
+    {
+      "name": "JIR_Ifgt",
+      "description": "replace jump instructions with IFGT (IF_ICMPGT)"
+    },
+    {
+      "name": "PRV",
+      "description": "change operands of reference assignment"
+    },
+    {
+      "name": "LIR_LeftOperand",
+      "description": "replace binary logical instructions with their left operands"
+    },
+    {
+      "name": "LIR_And",
+      "description": "replace binary logical instructions with AND"
+    },
+    {
+      "name": "JIR_Ifnull",
+      "description": "replace jump instruction IFNULL with IFNONNULL and vice-versa"
+    },
+    {
+      "name": "JTI",
+      "description": "insert \"this\" keyword when field has the same name as parameter"
+    },
+    {
+      "name": "AIR_LeftOperand",
+      "description": "replace basic binary arithmetic instructions with their left operands"
+    },
+    {
+      "name": "EOC",
+      "description": "replace reference comparison with content comparison (equals) and vice-versa"
+    },
+    {
+      "name": "OAC",
+      "description": "change order or number of arguments in method invocations"
+    },
+    {
+      "name": "IOD",
+      "description": "delete overriding method"
+    },
+    {
+      "name": "AIR_RightOperand",
+      "description": "replace basic binary arithmetic instructions with their right operands"
+    },
+    {
+      "name": "JIR_Ifne",
+      "description": "replace jump instructions with IFNE (IF_ICMPNE, IF_ACMPNE)"
+    },
+    {
+      "name": "EOA",
+      "description": "replace reference assignment with content assignment (clone) and vice-versa"
+    },
+    {
+      "name": "CSR",
+      "description": "collection synchronization removal"
+    },
+    {
+      "name": "IOP",
+      "description": "relocate calls to overridden method"
+    },
+    {
+      "name": "AIR_Rem",
+      "description": "replace basic binary arithmetic instructions with REM"
+    },
+    {
+      "name": "IPC",
+      "description": "delete super constructor call"
+    },
+    {
+      "name": "IOR",
+      "description": "rename overridden method"
+    },
+    {
+      "name": "JIR_Iflt",
+      "description": "replace jump instructions with IFLT (IF_ICMPLT)"
+    },
+    {
+      "name": "DUL",
+      "description": "Duplicates element in the list"
+    },
+    {
+      "name": "SIR_LeftOperand",
+      "description": "replace shift instructions with their left operands"
+    },
+    {
+      "name": "OMR",
+      "description": "change overloading method"
+    },
+    {
+      "name": "CST",
+      "description": "Changes LinkedHashSet to HashSet to shuffle order of elements in LinkedHashSet"
+    },
+    {
+      "name": "EMM",
+      "description": "change a modifier method name to other compatible modifier method names"
+    }
+  ],
+  "tests": [
+    {
+      "name": "ch.qos.logback.core.pattern.SpacePadderTest",
+      "duration": 145,
+      "result": "passed"
+    }
+  ],
+  "classes": [
+    {
+      "name": "ch.qos.logback.core.pattern.SpacePadder",
+      "score": 0.9019608,
+      "mutantsCount": 51,
+      "mutantsKilledCount": 46,
+      "notKilledMutant": [
+        {
+          "operators": [
+            "JIR_Ifgt"
+          ],
+          "points": [
+            1
+          ],
+          "lines": [
+            44
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifne"
+          ],
+          "points": [
+            2
+          ],
+          "lines": [
+            53
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifgt"
+          ],
+          "points": [
+            0
+          ],
+          "lines": [
+            28
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifle"
+          ],
+          "points": [
+            2
+          ],
+          "lines": [
+            53
+          ]
+        },
+        {
+          "operators": [
+            "JIR_Ifle"
+          ],
+          "points": [
+            4
+          ],
+          "lines": [
+            59
+          ]
+        }
+      ]
+    }
+  ]
+}
