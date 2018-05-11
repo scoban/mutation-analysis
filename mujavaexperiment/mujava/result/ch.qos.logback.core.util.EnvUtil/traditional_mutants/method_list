@@ -1,8 +1,0 @@
-EnvUtil()
-int_getJDKVersion(java.lang.String)
-boolean_isJDK_N_OrHigher(int)
-boolean_isJDK5()
-boolean_isJDK6OrHigher()
-boolean_isJDK7OrHigher()
-boolean_isJaninoAvailable()
-boolean_isWindows()

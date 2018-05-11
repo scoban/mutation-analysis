@@ -1,5 +1,0 @@
-void_setPropertyContainers(ch.qos.logback.core.spi.PropertyContainer,ch.qos.logback.core.spi.PropertyContainer)
-boolean_isNull(java.lang.String)
-boolean_isDefined(java.lang.String)
-java.lang.String_p(java.lang.String)
-java.lang.String_property(java.lang.String)

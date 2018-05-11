@@ -1,2 +1,0 @@
-ROR_1:22:void_start(): driverClass != null  =>   driverClass == null
-ROR_2:36:java.sql.Connection_getConnection(): getUser() == null  =>   getUser() != null

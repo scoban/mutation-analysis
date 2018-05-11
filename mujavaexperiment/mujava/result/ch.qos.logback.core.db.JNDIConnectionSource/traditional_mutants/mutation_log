@@ -1,4 +1,0 @@
-ROR_1:24:void_start(): jndiLocation == null  =>   jndiLocation != null
-ROR_2:35:java.sql.Connection_getConnection(): dataSource == null  =>   dataSource != null
-ROR_3:38:java.sql.Connection_getConnection(): getUser() != null  =>   getUser() == null
-ROR_4:70:javax.sql.DataSource_lookupDataSource(): ds == null  =>   ds != null

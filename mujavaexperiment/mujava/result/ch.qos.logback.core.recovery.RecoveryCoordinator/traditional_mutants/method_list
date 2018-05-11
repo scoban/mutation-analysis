@@ -1,6 +1,0 @@
-RecoveryCoordinator()
-RecoveryCoordinator(long)
-boolean_isTooSoon()
-void_setCurrentTime(long)
-long_getCurrentTime()
-long_getBackoffCoefficient()

@@ -1,1 +1,0 @@
-ROR_1:39:void_initAndAddListener(ch.qos.logback.core.Context,ch.qos.logback.core.status.StatusListener): listener != null  =>   listener == null

@@ -1,5 +1,0 @@
-AppenderTracker(ch.qos.logback.core.Context,ch.qos.logback.core.sift.AppenderFactory)
-void_processPriorToRemoval(ch.qos.logback.core.Appender)
-ch.qos.logback.core.Appender_buildComponent(java.lang.String)
-ch.qos.logback.core.helpers.NOPAppender_buildNOPAppender(java.lang.String)
-boolean_isComponentStale(ch.qos.logback.core.Appender)

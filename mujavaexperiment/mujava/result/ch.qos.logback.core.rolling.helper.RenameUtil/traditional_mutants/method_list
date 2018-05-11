@@ -1,5 +1,0 @@
-void_rename(java.lang.String,java.lang.String)
-java.lang.Boolean_areOnDifferentVolumes(java.io.File,java.io.File)
-void_renameByCopying(java.lang.String,java.lang.String)
-void_createMissingTargetDirsIfNecessary(java.io.File)
-java.lang.String_toString()

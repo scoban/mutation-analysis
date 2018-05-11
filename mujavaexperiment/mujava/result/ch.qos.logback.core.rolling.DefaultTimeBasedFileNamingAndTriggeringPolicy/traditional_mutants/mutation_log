@@ -1,7 +1,0 @@
-ROR_1:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time > nextCheck
-ROR_2:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time < nextCheck
-ROR_3:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time <= nextCheck
-ROR_4:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time == nextCheck
-ROR_5:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   time != nextCheck
-ROR_6:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   true
-ROR_7:34:boolean_isTriggeringEvent(java.io.File,E): time >= nextCheck  =>   false

@@ -1,7 +1,0 @@
-ROR_1:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   ++writeCounter > resetFrequency
-ROR_2:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   ++writeCounter < resetFrequency
-ROR_3:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   ++writeCounter <= resetFrequency
-ROR_4:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   ++writeCounter == resetFrequency
-ROR_5:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   ++writeCounter != resetFrequency
-ROR_6:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   true
-ROR_7:37:void_preventMemoryLeak(): ++writeCounter >= resetFrequency  =>   false

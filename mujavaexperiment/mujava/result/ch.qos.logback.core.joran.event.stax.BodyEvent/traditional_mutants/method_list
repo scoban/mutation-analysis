@@ -1,4 +1,0 @@
-BodyEvent(java.lang.String,javax.xml.stream.Location)
-java.lang.String_getText()
-void_append(java.lang.String)
-java.lang.String_toString()

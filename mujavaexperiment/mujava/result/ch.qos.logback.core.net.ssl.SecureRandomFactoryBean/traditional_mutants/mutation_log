@@ -1,2 +1,0 @@
-ROR_1:23:java.security.SecureRandom_createSecureRandom(): getProvider() != null  =>   getProvider() == null
-ROR_2:33:java.lang.String_getAlgorithm(): algorithm == null  =>   algorithm != null

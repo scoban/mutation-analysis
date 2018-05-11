@@ -1,4 +1,0 @@
-void_start()
-ch.qos.logback.core.boolex.EventEvaluator_getEvaluator()
-void_setEvaluator(ch.qos.logback.core.boolex.EventEvaluator)
-ch.qos.logback.core.spi.FilterReply_decide(E)

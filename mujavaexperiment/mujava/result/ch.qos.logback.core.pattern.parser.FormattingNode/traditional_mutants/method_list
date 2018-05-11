@@ -1,6 +1,0 @@
-FormattingNode(int)
-FormattingNode(int,java.lang.Object)
-ch.qos.logback.core.pattern.FormatInfo_getFormatInfo()
-void_setFormatInfo(ch.qos.logback.core.pattern.FormatInfo)
-boolean_equals(java.lang.Object)
-int_hashCode()

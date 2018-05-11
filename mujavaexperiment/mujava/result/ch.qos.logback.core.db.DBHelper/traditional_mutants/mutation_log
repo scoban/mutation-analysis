@@ -1,2 +1,0 @@
-ROR_1:17:void_closeConnection(java.sql.Connection): connection != null  =>   connection == null
-ROR_2:27:void_closeStatement(java.sql.Statement): statement != null  =>   statement == null

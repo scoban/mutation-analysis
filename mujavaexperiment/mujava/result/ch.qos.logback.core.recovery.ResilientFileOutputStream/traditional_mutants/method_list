@@ -1,6 +1,0 @@
-ResilientFileOutputStream(java.io.File,boolean,long)
-java.nio.channels.FileChannel_getChannel()
-java.io.File_getFile()
-java.lang.String_getDescription()
-java.io.OutputStream_openNewOutputStream()
-java.lang.String_toString()

@@ -1,4 +1,0 @@
-java.lang.Thread_newThread(java.lang.Runnable)
-java.util.concurrent.ScheduledExecutorService_newScheduledExecutorService()
-java.util.concurrent.ExecutorService_newExecutorService()
-void_shutdown(java.util.concurrent.ExecutorService)

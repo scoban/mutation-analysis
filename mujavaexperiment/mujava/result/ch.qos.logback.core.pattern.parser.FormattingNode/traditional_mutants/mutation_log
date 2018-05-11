@@ -1,3 +1,0 @@
-ROR_1:44:boolean_equals(java.lang.Object): formatInfo != null  =>   formatInfo == null
-ROR_2:44:boolean_equals(java.lang.Object): r.formatInfo == null  =>   r.formatInfo != null
-ROR_3:50:int_hashCode(): formatInfo != null  =>   formatInfo == null

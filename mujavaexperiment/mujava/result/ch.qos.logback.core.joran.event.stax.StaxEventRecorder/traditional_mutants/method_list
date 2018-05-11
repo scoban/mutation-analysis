@@ -1,8 +1,0 @@
-StaxEventRecorder(ch.qos.logback.core.Context)
-void_recordEvents(java.io.InputStream)
-java.util.List_getEventList()
-void_read(javax.xml.stream.XMLEventReader)
-void_addStartElement(javax.xml.stream.events.XMLEvent)
-void_addCharacters(javax.xml.stream.events.XMLEvent)
-void_addEndEvent(javax.xml.stream.events.XMLEvent)
-ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent()

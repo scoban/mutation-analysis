@@ -1,6 +1,0 @@
-CompositeNode(java.lang.String)
-ch.qos.logback.core.pattern.parser.Node_getChildNode()
-void_setChildNode(ch.qos.logback.core.pattern.parser.Node)
-boolean_equals(java.lang.Object)
-int_hashCode()
-java.lang.String_toString()

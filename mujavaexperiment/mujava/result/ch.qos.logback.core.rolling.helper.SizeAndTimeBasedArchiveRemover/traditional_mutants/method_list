@@ -1,4 +1,0 @@
-SizeAndTimeBasedArchiveRemover(ch.qos.logback.core.rolling.helper.FileNamePattern,ch.qos.logback.core.rolling.helper.RollingCalendar)
-java.io.File[]_getFilesInPeriod(java.util.Date)
-java.lang.String_createStemRegex(java.util.Date)
-void_descendingSort(java.io.File[],java.util.Date)

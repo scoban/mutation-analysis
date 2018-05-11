@@ -1,2 +1,0 @@
-ROR_1:12:boolean_notMarkedWithNoAutoStart(java.lang.Object): o == null  =>   o != null
-ROR_2:17:boolean_notMarkedWithNoAutoStart(java.lang.Object): a == null  =>   a != null

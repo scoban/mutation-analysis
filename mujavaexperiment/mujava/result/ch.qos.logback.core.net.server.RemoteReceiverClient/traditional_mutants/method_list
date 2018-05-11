@@ -1,2 +1,0 @@
-void_setQueue(java.util.concurrent.BlockingQueue)
-boolean_offer(java.io.Serializable)

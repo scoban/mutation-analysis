@@ -1,4 +1,0 @@
-EventPlayer(ch.qos.logback.core.joran.spi.Interpreter)
-java.util.List_getCopyOfPlayerEventList()
-void_play(java.util.List)
-void_addEventsDynamically(java.util.List,int)

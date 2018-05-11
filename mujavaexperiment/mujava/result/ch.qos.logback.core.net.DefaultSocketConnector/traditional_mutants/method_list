@@ -1,8 +1,0 @@
-DefaultSocketConnector(java.net.InetAddress,int,long,long)
-DefaultSocketConnector(java.net.InetAddress,int,ch.qos.logback.core.util.DelayStrategy)
-java.net.Socket_call()
-java.net.Socket_createSocket()
-void_useDefaultsForMissingFields()
-void_setExceptionHandler(ExceptionHandler)
-void_setSocketFactory(javax.net.SocketFactory)
-void_connectionFailed(ch.qos.logback.core.net.SocketConnector,java.lang.Exception)

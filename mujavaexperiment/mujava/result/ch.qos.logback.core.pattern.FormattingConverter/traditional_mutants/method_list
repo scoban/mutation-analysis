@@ -1,3 +1,0 @@
-ch.qos.logback.core.pattern.FormatInfo_getFormattingInfo()
-void_setFormattingInfo(ch.qos.logback.core.pattern.FormatInfo)
-void_write(java.lang.StringBuilder,E)

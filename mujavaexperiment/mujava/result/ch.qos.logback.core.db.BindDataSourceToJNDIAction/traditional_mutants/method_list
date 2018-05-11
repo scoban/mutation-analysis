@@ -1,3 +1,0 @@
-BindDataSourceToJNDIAction(ch.qos.logback.core.joran.util.beans.BeanDescriptionCache)
-void_begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)
-void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)

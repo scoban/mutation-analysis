@@ -1,5 +1,0 @@
-void_start()
-java.sql.Connection_getConnection()
-java.lang.String_getJndiLocation()
-void_setJndiLocation(java.lang.String)
-javax.sql.DataSource_lookupDataSource()

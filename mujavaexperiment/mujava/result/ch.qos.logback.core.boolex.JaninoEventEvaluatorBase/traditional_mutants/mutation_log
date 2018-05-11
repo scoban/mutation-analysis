@@ -1,8 +1,0 @@
-ROR_1:44:void_start(): context != null  =>   context == null
-ROR_2:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   errorCount > ERROR_THRESHOLD
-ROR_3:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   errorCount < ERROR_THRESHOLD
-ROR_4:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   errorCount <= ERROR_THRESHOLD
-ROR_5:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   errorCount == ERROR_THRESHOLD
-ROR_6:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   errorCount != ERROR_THRESHOLD
-ROR_7:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   true
-ROR_8:63:boolean_evaluate(E): errorCount >= ERROR_THRESHOLD  =>   false

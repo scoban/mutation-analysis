@@ -1,2 +1,0 @@
-ROR_2:86:java.lang.ClassLoader_getClassLoaderOfObject(java.lang.Object): o == null  =>   o != null
-ROR_3:109:java.lang.ClassLoader_getClassLoaderOfClass(java.lang.Class): cl == null  =>   cl != null

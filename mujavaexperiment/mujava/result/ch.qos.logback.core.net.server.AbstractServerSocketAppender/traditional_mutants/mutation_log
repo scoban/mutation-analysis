@@ -1,2 +1,0 @@
-ROR_1:78:void_append(E): event == null  =>   event != null
-ROR_2:104:java.net.InetAddress_getInetAddress(): getAddress() == null  =>   getAddress() != null

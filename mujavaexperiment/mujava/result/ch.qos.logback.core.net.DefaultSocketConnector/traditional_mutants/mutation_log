@@ -1,3 +1,0 @@
-ROR_1:45:java.net.Socket_call(): socket == null  =>   socket != null
-ROR_2:65:void_useDefaultsForMissingFields(): exceptionHandler == null  =>   exceptionHandler != null
-ROR_3:68:void_useDefaultsForMissingFields(): socketFactory == null  =>   socketFactory != null

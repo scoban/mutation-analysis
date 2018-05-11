@@ -1,9 +1,0 @@
-ROR_1:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   i > len
-ROR_2:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   i >= len
-ROR_3:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   i <= len
-ROR_4:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   i == len
-ROR_5:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   i != len
-ROR_6:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   true
-ROR_7:32:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): i < len  =>   false
-ROR_8:34:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): r == FilterReply.DENY  =>   r != FilterReply.DENY
-ROR_9:34:ch.qos.logback.core.spi.FilterReply_getFilterChainDecision(E): r == FilterReply.ACCEPT  =>   r != FilterReply.ACCEPT

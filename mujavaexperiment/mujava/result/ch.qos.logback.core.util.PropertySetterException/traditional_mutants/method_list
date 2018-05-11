@@ -1,3 +1,0 @@
-PropertySetterException(java.lang.String)
-PropertySetterException(java.lang.Throwable)
-PropertySetterException(java.lang.String,java.lang.Throwable)

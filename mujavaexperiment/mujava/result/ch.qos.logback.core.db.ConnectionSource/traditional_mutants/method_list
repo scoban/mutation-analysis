@@ -1,4 +1,0 @@
-java.sql.Connection_getConnection()
-ch.qos.logback.core.db.dialect.SQLDialectCode_getSQLDialectCode()
-boolean_supportsGetGeneratedKeys()
-boolean_supportsBatchUpdates()

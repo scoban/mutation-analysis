@@ -1,4 +1,0 @@
-void_addInstanceRules(ch.qos.logback.core.joran.spi.RuleStore)
-void_addImplicitRules(ch.qos.logback.core.joran.spi.Interpreter)
-void_buildInterpreter()
-ch.qos.logback.core.joran.spi.InterpretationContext_getInterpretationContext()

@@ -1,5 +1,0 @@
-void_writeInt(byte,int,int)
-void_writeInt(java.io.ByteArrayOutputStream,int)
-int_readInt(byte,int)
-java.lang.String_toHexString(byte)
-byte_hexStringToByteArray(java.lang.String)

@@ -1,3 +1,0 @@
-ROR_1:36:boolean_equals(java.lang.Object): childNode != null  =>   childNode == null
-ROR_2:36:boolean_equals(java.lang.Object): r.childNode == null  =>   r.childNode != null
-ROR_3:47:java.lang.String_toString(): childNode != null  =>   childNode == null

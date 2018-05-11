@@ -1,1 +1,0 @@
-ROR_1:35:void_discoverConnectionProperties(): connection == null  =>   connection != null

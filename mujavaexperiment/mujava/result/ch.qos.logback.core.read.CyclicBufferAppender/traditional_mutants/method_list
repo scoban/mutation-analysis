@@ -1,8 +1,0 @@
-void_start()
-void_stop()
-void_append(E)
-int_getLength()
-E_get(int)
-void_reset()
-int_getMaxSize()
-void_setMaxSize(int)

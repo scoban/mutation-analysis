@@ -1,7 +1,0 @@
-void_begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)
-void_loadAndSetProperties(ch.qos.logback.core.joran.spi.InterpretationContext,java.io.InputStream,ch.qos.logback.core.joran.action.ActionUtil.Scope)
-boolean_checkFileAttributeSanity(org.xml.sax.Attributes)
-boolean_checkResourceAttributeSanity(org.xml.sax.Attributes)
-boolean_checkValueNameAttributesSanity(org.xml.sax.Attributes)
-void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)
-void_finish(ch.qos.logback.core.joran.spi.InterpretationContext)

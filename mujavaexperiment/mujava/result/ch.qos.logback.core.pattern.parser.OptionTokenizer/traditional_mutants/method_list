@@ -1,5 +1,0 @@
-OptionTokenizer(ch.qos.logback.core.pattern.parser.TokenStream)
-OptionTokenizer(ch.qos.logback.core.pattern.parser.TokenStream,ch.qos.logback.core.pattern.util.IEscapeUtil)
-void_tokenize(char,java.util.List)
-void_emitOptionToken(java.util.List,java.util.List)
-void_escape(java.lang.String,java.lang.StringBuffer)

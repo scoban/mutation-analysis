@@ -1,6 +1,0 @@
-ROR_1:58:void_begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes): condition != null  =>   condition == null
-ROR_2:72:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o == null  =>   o != null
-ROR_3:78:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o != this  =>   o == this
-ROR_4:82:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): state.boolResult == null  =>   state.boolResult != null
-ROR_5:91:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): listToPlay != null  =>   listToPlay == null
-ROR_6:118:boolean_isActive(): stack == null  =>   stack != null

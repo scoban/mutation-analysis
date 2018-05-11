@@ -1,2 +1,0 @@
-ROR_1:25:byte_footerBytes(): fileFooter == null  =>   fileFooter != null
-ROR_2:33:byte_headerBytes(): fileHeader == null  =>   fileHeader != null

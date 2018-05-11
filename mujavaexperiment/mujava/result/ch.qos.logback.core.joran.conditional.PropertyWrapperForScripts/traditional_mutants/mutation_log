@@ -1,3 +1,0 @@
-ROR_1:27:boolean_isNull(java.lang.String): val == null  =>   val != null
-ROR_2:33:boolean_isDefined(java.lang.String): val != null  =>   val == null
-ROR_3:44:java.lang.String_property(java.lang.String): val != null  =>   val == null

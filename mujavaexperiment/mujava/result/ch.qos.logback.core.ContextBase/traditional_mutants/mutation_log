@@ -1,9 +1,0 @@
-ROR_1:64:void_setStatusManager(ch.qos.logback.core.status.StatusManager): statusManager == null  =>   statusManager != null
-ROR_2:104:java.lang.String_lazyGetHostname(): hostname == null  =>   hostname != null
-ROR_3:114:void_putHostnameProperty(java.lang.String): existingHostname == null  =>   existingHostname != null
-ROR_4:166:void_setName(java.lang.String): name != null  =>   name == null
-ROR_5:169:void_setName(java.lang.String): this.name == null  =>   this.name != null
-ROR_6:193:java.util.concurrent.ScheduledExecutorService_getScheduledExecutorService(): scheduledExecutorService == null  =>   scheduledExecutorService != null
-ROR_7:201:void_stopExecutorService(): scheduledExecutorService != null  =>   scheduledExecutorService == null
-ROR_8:210:void_removeShutdownHook(): hook != null  =>   hook == null
-ROR_9:226:ch.qos.logback.core.LifeCycleManager_getLifeCycleManager(): lifeCycleManager == null  =>   lifeCycleManager != null

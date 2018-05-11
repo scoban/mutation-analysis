@@ -1,5 +1,0 @@
-ROR_1:32:java.security.KeyStore_createKeyStore(): getLocation() == null  =>   getLocation() != null
-ROR_2:53:java.security.KeyStore_createKeyStore(): inputStream != null  =>   inputStream == null
-ROR_3:65:java.security.KeyStore_newKeyStore(): getProvider() != null  =>   getProvider() == null
-ROR_4:80:java.lang.String_getType(): type == null  =>   type != null
-ROR_5:103:java.lang.String_getPassword(): password == null  =>   password != null

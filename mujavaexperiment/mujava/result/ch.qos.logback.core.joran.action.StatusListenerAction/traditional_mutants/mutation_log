@@ -1,2 +1,0 @@
-ROR_1:64:void_end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String): o != statusListener  =>   o == statusListener
-ROR_2:73:boolean_isEffectivelyAdded(): effectivelyAdded == null  =>   effectivelyAdded != null

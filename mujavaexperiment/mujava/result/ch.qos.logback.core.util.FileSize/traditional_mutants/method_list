@@ -1,4 +1,0 @@
-FileSize(long)
-long_getSize()
-ch.qos.logback.core.util.FileSize_valueOf(java.lang.String)
-java.lang.String_toString()

@@ -1,3 +1,0 @@
-ROR_1:49:void_doConfigure(java.net.URL): in != null  =>   in == null
-ROR_2:82:void_doConfigure(java.io.File): fis != null  =>   fis == null
-ROR_3:115:ch.qos.logback.core.joran.util.beans.BeanDescriptionCache_getBeanDescriptionCache(): beanDescriptionCache == null  =>   beanDescriptionCache != null

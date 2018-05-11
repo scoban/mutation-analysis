@@ -1,4 +1,0 @@
-void_connectionFailed(ch.qos.logback.core.net.SocketConnector,java.lang.Exception)
-java.net.Socket_call()
-void_setExceptionHandler(ch.qos.logback.core.net.SocketConnector.ExceptionHandler)
-void_setSocketFactory(javax.net.SocketFactory)

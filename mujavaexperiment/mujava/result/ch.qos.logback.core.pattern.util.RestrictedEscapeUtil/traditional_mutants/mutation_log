@@ -1,7 +1,0 @@
-ROR_1:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   escapeChars.indexOf( next ) > 0
-ROR_2:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   escapeChars.indexOf( next ) < 0
-ROR_3:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   escapeChars.indexOf( next ) <= 0
-ROR_4:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   escapeChars.indexOf( next ) == 0
-ROR_5:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   escapeChars.indexOf( next ) != 0
-ROR_6:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   true
-ROR_7:12:void_escape(java.lang.String,java.lang.StringBuffer,char,int): escapeChars.indexOf( next ) >= 0  =>   false

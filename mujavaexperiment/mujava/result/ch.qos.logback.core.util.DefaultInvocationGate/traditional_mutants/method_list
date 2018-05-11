@@ -1,8 +1,0 @@
-DefaultInvocationGate()
-DefaultInvocationGate(long,long,long)
-boolean_isTooSoon(long)
-void_updateLimits(long)
-long_getMask()
-void_increaseMask()
-void_decreaseMask()
-long_getInvocationCounter()

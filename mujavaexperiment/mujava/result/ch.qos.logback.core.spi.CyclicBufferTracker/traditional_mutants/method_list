@@ -1,8 +1,0 @@
-CyclicBufferTracker()
-int_getBufferSize()
-void_setBufferSize(int)
-void_processPriorToRemoval(ch.qos.logback.core.helpers.CyclicBuffer)
-ch.qos.logback.core.helpers.CyclicBuffer_buildComponent(java.lang.String)
-boolean_isComponentStale(ch.qos.logback.core.helpers.CyclicBuffer)
-java.util.List_liveKeysAsOrderedList()
-java.util.List_lingererKeysAsOrderedList()

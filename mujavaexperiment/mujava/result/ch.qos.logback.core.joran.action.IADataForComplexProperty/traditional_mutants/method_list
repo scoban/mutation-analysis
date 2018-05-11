@@ -1,5 +1,0 @@
-IADataForComplexProperty(ch.qos.logback.core.joran.util.PropertySetter,ch.qos.logback.core.util.AggregationType,java.lang.String)
-ch.qos.logback.core.util.AggregationType_getAggregationType()
-java.lang.Object_getNestedComplexProperty()
-java.lang.String_getComplexPropertyName()
-void_setNestedComplexProperty(java.lang.Object)

@@ -1,4 +1,0 @@
-void_clean(java.util.Date)
-void_setMaxHistory(int)
-void_setTotalSizeCap(long)
-java.util.concurrent.Future_cleanAsynchronously(java.util.Date)

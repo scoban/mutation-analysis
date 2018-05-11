@@ -1,4 +1,0 @@
-ROR_1:17:void_startConverters(ch.qos.logback.core.pattern.Converter): c != null  =>   c == null
-ROR_2:36:ch.qos.logback.core.pattern.Converter_findTail(ch.qos.logback.core.pattern.Converter): p != null  =>   p == null
-ROR_3:38:ch.qos.logback.core.pattern.Converter_findTail(ch.qos.logback.core.pattern.Converter): next == null  =>   next != null
-ROR_4:50:void_setContextForConverters(ch.qos.logback.core.Context,ch.qos.logback.core.pattern.Converter): c != null  =>   c == null

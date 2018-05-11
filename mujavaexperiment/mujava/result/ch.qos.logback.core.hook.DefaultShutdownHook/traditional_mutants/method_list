@@ -1,4 +1,0 @@
-DefaultShutdownHook()
-ch.qos.logback.core.util.Duration_getDelay()
-void_setDelay(ch.qos.logback.core.util.Duration)
-void_run()

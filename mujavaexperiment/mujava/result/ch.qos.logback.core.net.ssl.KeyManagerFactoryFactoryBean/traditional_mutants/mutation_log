@@ -1,2 +1,0 @@
-ROR_1:22:javax.net.ssl.KeyManagerFactory_createKeyManagerFactory(): getProvider() != null  =>   getProvider() == null
-ROR_2:27:java.lang.String_getAlgorithm(): algorithm == null  =>   algorithm != null

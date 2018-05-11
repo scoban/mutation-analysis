@@ -1,3 +1,0 @@
-ROR_1:44:boolean_equals(java.lang.Object): optionList != null  =>   optionList == null
-ROR_2:44:boolean_equals(java.lang.Object): r.optionList == null  =>   r.optionList != null
-ROR_3:55:java.lang.String_toString(): optionList == null  =>   optionList != null

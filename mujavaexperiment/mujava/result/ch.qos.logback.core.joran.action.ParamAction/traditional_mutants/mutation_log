@@ -1,2 +1,0 @@
-ROR_1:33:void_begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes): name == null  =>   name != null
-ROR_2:38:void_begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes): value == null  =>   value != null

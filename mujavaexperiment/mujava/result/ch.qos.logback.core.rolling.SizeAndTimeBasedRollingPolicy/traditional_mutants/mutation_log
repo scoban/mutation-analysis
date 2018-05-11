@@ -1,8 +1,0 @@
-ROR_1:19:void_start(): maxFileSize == null  =>   maxFileSize != null
-ROR_2:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   totalSizeCap.getSize() > maxFileSize.getSize()
-ROR_3:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   totalSizeCap.getSize() >= maxFileSize.getSize()
-ROR_4:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   totalSizeCap.getSize() <= maxFileSize.getSize()
-ROR_5:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   totalSizeCap.getSize() == maxFileSize.getSize()
-ROR_6:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   totalSizeCap.getSize() != maxFileSize.getSize()
-ROR_7:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   true
-ROR_8:27:void_start(): totalSizeCap.getSize() < maxFileSize.getSize()  =>   false

@@ -6,7 +6,7 @@
 	<property name="project.dir" value="../../loqback-mutationtesting/logback-core">
 	</property>
 
-	<property name="mujava.dir" value="mujava" />
+	<property name="mujava.dir" value="session1" />
 	<property name="mujava.lib.dir" value="lib" />
 	<property name="mujava.build.dir" value="${mujava.dir}" />
 
@@ -30,6 +30,9 @@
 		<fileset dir="${basedir}/libs">
 			<include name="**/*.jar" />
 		</fileset>
+		<fileset dir="${basedir}/src">
+			<include name="**/*.java" />
+		</fileset>
 	</path>
 
 	<path id="classpath.test">
@@ -38,7 +41,7 @@
 	</path>
 
 	<target name="clean">
-		<delete dir="${basedir}/mujava">
+		<delete dir="${basedir}/${mujava.dir}">
 		</delete>
 		<echo message="clean done" />
 	</target>
@@ -46,11 +49,11 @@
 	<target name="init" depends="clean">
 		<mkdir dir="${mujava.build.dir}" />
 		<mkdir dir="${mujava.lib.dir}" />
-		<mkdir dir="${basedir}/mujava"/>
-		<mkdir dir="${basedir}/mujava/src"/>
-		<mkdir dir="${basedir}/mujava/testset"/>
-		<mkdir dir="${basedir}/mujava/classes"/>
-		<mkdir dir="${basedir}/mujava/result"/>
+		<mkdir dir="${basedir}/${mujava.dir}" />
+		<mkdir dir="${basedir}/${mujava.dir}/src" />
+		<mkdir dir="${basedir}/${mujava.dir}/testset" />
+		<mkdir dir="${basedir}/${mujava.dir}/classes" />
+		<mkdir dir="${basedir}/${mujava.dir}/result" />
 	</target>
 
 	<target name="copyLibs" depends="init">
@@ -62,11 +65,21 @@
 
 		<echo message="copying source files">
 		</echo>
-		<copy todir="${basedir}/mujava/src">
+		<copy todir="${basedir}/${mujava.dir}/src">
 			<fileset dir="${project.dir}/src/main/java" includes="**" />
 		</copy>
 
-		<copy todir="${basedir}/mujava/src/test">
+		<copy todir="${basedir}/${mujava.dir}/src/test">
+			<fileset dir="${project.dir}/src/test">
+				<exclude name="**/java/**" />
+			</fileset>
+		</copy>
+
+		<copy todir="${basedir}/src">
+			<fileset dir="${project.dir}/src/main/java" includes="**" />
+		</copy>
+
+		<copy todir="${basedir}/src/test">
 			<fileset dir="${project.dir}/src/test">
 				<exclude name="**/java/**" />
 			</fileset>
@@ -79,7 +92,7 @@
 		<echo>Java/JVM detail version: ${java.version}</echo>
 		<echo message="compiling source files in ${main.src.dir}">
 		</echo>
-		<javac srcdir="${main.src.dir}" destdir="${basedir}/mujava/classes" debug="yes" fork="yes" includeantruntime="true">
+		<javac srcdir="${main.src.dir}" destdir="${basedir}/${mujava.dir}/classes" debug="yes" fork="yes" includeantruntime="true">
 			<classpath refid="classpath.base" />
 			<exclude name="module-info.java" />
 			<compilerarg value="-Xlint:unchecked" />
@@ -87,16 +100,32 @@
 		</javac>
 	</target>
 
+
 	<target name="test-compile" depends="compile">
 		<echo message="Test compiling" />
-		<javac srcdir="${test.src.dir}" destdir="${basedir}/mujava/classes" includeantruntime="true">
+		<javac destdir="./${test.build.dir}/testset">
 			<classpath refid="classpath.test" />
+			<src path="${test.src.dir}" />
+			<src path="${main.src.dir}" />
+			<exclude name="module-info.java" />
 		</javac>
 		<echo message="Test resources copying" />
-		<copy todir="${basedir}/mujava/testset">
-			<fileset dir="${test.src.dir}" includes="**" />
+		<copy todir="${test.build.dir}/src">
+			<fileset dir="${test.resource.dir}" includes="**" />
 		</copy>
+		<delete>
+			<fileset dir="${test.build.dir}/testset">
+				<exclude name="**/*Test.class" />
+			</fileset>
+		</delete>
 	</target>
 	
+	<target name="asdasd">
+		<java classname="mujava.cli.genmutes">
+			<classpath path="CLASSPATH=libs/mujava.jar:libs/commonio-2.4.jar:libs/openjava.jar:/usr/lib/jvm/java-8-oracle/lib/tools.jar:/home/selamic/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/selamic/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar">
+			</classpath>
+			<arg value="session1"/>
+		</java>
+	</target>
 </project>
 

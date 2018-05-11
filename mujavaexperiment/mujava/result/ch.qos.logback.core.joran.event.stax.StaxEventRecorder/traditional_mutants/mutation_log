@@ -1,7 +1,0 @@
-ROR_1:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   size > 0
-ROR_2:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   size >= 0
-ROR_3:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   size < 0
-ROR_4:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   size <= 0
-ROR_5:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   size != 0
-ROR_6:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   true
-ROR_7:116:ch.qos.logback.core.joran.event.stax.StaxEvent_getLastEvent(): size == 0  =>   false

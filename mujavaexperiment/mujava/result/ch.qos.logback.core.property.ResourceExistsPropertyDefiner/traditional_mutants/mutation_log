@@ -1,1 +1,0 @@
-ROR_1:35:java.lang.String_getPropertyValue(): resourceURL != null  =>   resourceURL == null

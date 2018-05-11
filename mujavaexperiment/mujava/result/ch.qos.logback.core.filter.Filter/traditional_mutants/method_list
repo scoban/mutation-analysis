@@ -1,6 +1,0 @@
-void_start()
-boolean_isStarted()
-void_stop()
-ch.qos.logback.core.spi.FilterReply_decide(E)
-java.lang.String_getName()
-void_setName(java.lang.String)

@@ -1,2 +1,0 @@
-ROR_1:25:java.lang.Class_findDefaultComponentType(java.lang.Class,java.lang.String): hostClass != null  =>   hostClass == null
-ROR_2:27:java.lang.Class_findDefaultComponentType(java.lang.Class,java.lang.String): componentClass != null  =>   componentClass == null

@@ -1,3 +1,0 @@
-void_addRule(ch.qos.logback.core.joran.spi.ElementSelector,java.lang.String)
-void_addRule(ch.qos.logback.core.joran.spi.ElementSelector,ch.qos.logback.core.joran.action.Action)
-java.util.List_matchActions(ch.qos.logback.core.joran.spi.ElementPath)
