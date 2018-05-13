@@ -73,4 +73,8 @@ management
 ![alt text](images/judy-famta-algorithm.png)
 
 
-## Conclusion
+## Experiment Result
+
+![alt text](images/totalmutants.png)
+![alt text](images/killedlive.png)
+![alt text](images/score.png)
