@@ -76,5 +76,5 @@ management
 ## Experiment Result
 
 ![alt text](images/totalmutants.png)
-![alt text](images/killedlive.png)
+![alt text](images/livekilled.png)
 ![alt text](images/score.png)
