@@ -1,12 +1,13 @@
-# Mutation Analysis 
+# Mutation Testing and Analysis with different Java Mutation Tools
 
-Mutation testing is a fault based techniqe which helps to evaluate the performance of test suites. The effectiveness 
+## Introduction
+
+Mutation testing is a fault based technique which helps to evaluate the performance of test suites. The effectiveness 
 of test suites are measured by how many faults are detected. 
 
 A mutated program is a replication of original program, which has a seeded fault. These faults are injected into
 components on purpose and let the test suites detects those defects.
 
-## Introduction
 
 In this section, we will discuss the mutation analysis and conduct an experiment using different mutation analysis tools. 
 
@@ -31,28 +32,10 @@ integrate in SDLC, we will try to find a way to execute test units using Apache 
   Analysis and Real Faults
 
 
-## Background
-
-The reader should have an understanding of unit testing development.
-The reader also have a background of Java Programming Language, JUnit Framework.
-
-### Selective Mutation
-Mutation testing is expensive operation in terms of time and memory. The technique outputs many mutant version of
-original component and requires them to be killed.  
-
 ## Tools
 
-The tools which are used to perform experiments are MuJava, Judy, Major and PIT. These tools are freely available
+The tools which are used to perform experiments are  Judy, Major and PIT. These tools are freely available
 and used frequently. In this study, we will focus on these tools.
-
-### MuJava
-
-Mujava (https://cs.gmu.edu/~offutt/mujava/) is one of the oldest mutation testing tools for Java language. This tool
-are also the most used in most of the research studies. MuJava provides both method level and class level mutation 
-analysis. It also supports that the OOP features. 
-
-The process of mutation generation is as follows. Faults are injected into source files and result of injecting
-creates a mutant that is the faulty version of original components.
 
 ### Major ( Mutation Analysis in a Java cOmpileR) 
 Major is also a tool that is mostly used in studies. Major tool is integrated into the Java Compiler, therefore, it 
@@ -88,31 +71,6 @@ management
 ![alt text](images/judy-class-A-mutated-pointcut.png)
 
 ![alt text](images/judy-famta-algorithm.png)
-
-### PIT
-
-
-## Experiment
-
-In this section, we will perform experiments for four different mutation testing tools. We will show performance of
-each tools and compare them. These tools are used in open source logging framework called logback 
-(https://github.com/qos-ch/logback). This framework is available open source and there are quite enough number of 
-test case written manually by author. Therefore, It is an ideal candiate to perform mutation testing. 
-
-There are steps to run mutation analysis for each mutation tools. Some of them has own compiler, own set of tools 
-to generate mutants successfully. 
-    
-- PIT 
-
-    We will firstly experiment using PIT testing tools. 
-
-## Comparison of Tools    
-
-number of mutants generated (Total number of mutants)
-number of killed mutants
-type of mutation generation technique : byte code , source code
-mutation generation speeds
-
 
 
 ## Conclusion
