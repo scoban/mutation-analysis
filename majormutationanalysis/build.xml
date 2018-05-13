@@ -11,15 +11,10 @@
 	<property name="lib.dir" value="${basedir}/lib" />
 	<property name="build.dir" value="${basedir}/majorexperiment" />
 
-	<!--
-	Project source files in logback-core project
-	-->
+	<!--Project source files in logback-core project-->
 	<property name="main.src.dir" value="${project.dir}/src/main/java" />
 	<property name="test.src.dir" value="${project.dir}/src/test/java" />
 	<property name="test.resource.dir" value="${project.dir}/src/test/resources" />
-	<!--
-	Major file path
-	-->
 
 	<echo>Java/JVM version: ${ant.java.version}</echo>
 	<echo>Java/JVM detail version: ${java.version}</echo>
@@ -103,7 +98,7 @@
 		</copy>
 	</target>
 
-	<target name="test" description="Run all unit test cases" >
+	<target name="test" description="Run all unit test cases" depends="test-compile">
 		<junit printsummary="on" haltonfailure="no" showoutput="true">
 			<classpath>
 				<path refid="classpath.test" />
@@ -112,13 +107,19 @@
 			<formatter type="brief" usefile="false" />
 			<batchtest>
 				<fileset dir="${basedir}/test">
-					<include name="**/ConsoleAppenderTest.java" />
+					<!--<include name="**/ConsoleApenderTest.java" />-->
+					<include name="**/*Test.java"/>
+					<exclude name="**/All*Test.java" />
+					<exclude name="**/PackageTest.java" />
+					<exclude name="ch.qos.logback.core.rolling*" />
+					<exclude name="ch.qos.logback.core.net*" />
+					<exclude name="ch.qos.logback.core.util*" />
 				</fileset>
 			</batchtest>
 		</junit>
 	</target>
 
-	<target name="mutation.test" description="Run mutation analysis for all unit test cases" depends="test">
+	<target name="mutation.test" description="Run mutation analysis for all unit test cases" depends="test-compile">
 		<echo message="Running mutation analysis ..." />
 		<echo>Java/JVM version: ${ant.java.version}</echo>
 		<echo>Java/JVM detail version: ${java.version}</echo>
@@ -130,7 +131,13 @@
 			<formatter type="brief" usefile="false" />
 			<batchtest fork="false">
 				<fileset dir="${basedir}/test">
-					<include name="**/ConsoleAppenderTest.java" />
+					<!--<include name="**/ConsoleAppenderTest.java" />-->
+					<include name="**/*Test.java"/>
+					<exclude name="**/All*Test.java" />
+					<exclude name="**/PackageTest.java" />
+					<exclude name="ch.qos.logback.core.rolling*" />
+					<exclude name="ch.qos.logback.core.net*" />
+					<exclude name="ch.qos.logback.core.util*" />
 				</fileset>
 			</batchtest>
 		</junit>
