@@ -51,27 +51,6 @@ for mutation operators.
 
 Judy is an implementation of the FAMTA Light approach developed in Java with AspectJ extensions. 
 
-pointcut and advice Aspect-Oriented Programming (AOP) mechanism
-
-This approach takes
-advantage of the pointcut and advice mechanism, which allows the definition of
-special points in the program flow (during method execution, constructor invo-
-cation and class field value change) – called pointcuts – and related methods –
-called advices – that can be invoked before, after or instead of a defined point-
-cut. The main strength of the mechanism is related to its support for regular
-expressions, what enables the definition of similar behaviour for specific types
-of event. This introduces very effective solutions to some commonly known pro-
-gramming issues, called “cross-cutting concerns”, such as logging or transaction
-management
-
-![alt text](images/judy-class-A.png)
-
-![alt text](images/judy-class-A-mutated.png)
-
-![alt text](images/judy-class-A-mutated-pointcut.png)
-
-![alt text](images/judy-famta-algorithm.png)
-
 
 ## Experiment Result
 
